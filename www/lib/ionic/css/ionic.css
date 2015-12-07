@@ -6605,7 +6605,7 @@ button.item.item-button-right {
 .list:last-child {
   margin-bottom: 0px; }
   .list:last-child.card {
-    margin-bottom: 40px; }
+    margin-bottom: 10px; }
 
 /**
  * List Header
@@ -6630,7 +6630,7 @@ button.item.item-button-right {
 .card,
 .list-inset {
   overflow: hidden;
-  margin: 20px 10px;
+  margin: auto;
   border-radius: 2px;
   background-color: #fff; }
 

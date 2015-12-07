@@ -1,1 +1,5 @@
 /* Empty. Add your own CSS if you like */
+#myimage{
+	-webkit-filter: brightness(25%);
+	-moz-filter: brightness(25%);
+}
