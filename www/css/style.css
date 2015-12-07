@@ -2,4 +2,26 @@
 #myimage{
 	-webkit-filter: brightness(25%);
 	-moz-filter: brightness(25%);
+	
 }
+
+#imgcontainer{
+	position: relative;
+}
+#eventname{
+	z-index: 100;
+  	position: absolute;
+  	color: white;
+  	font-size: 18px;
+  	left: 50px;
+  	top: 550px;
+}
+#eventtime{
+	z-index: 100;
+  	position: absolute;
+  	color: white;
+  	font-size: 18px;
+  	left: 50px;
+  	top: 580px;
+}
+
