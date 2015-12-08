@@ -26,3 +26,12 @@
   	top: 120px;
 }
 
+#sponstype{ 
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+#sponsimage{
+  width: 50%;
+}

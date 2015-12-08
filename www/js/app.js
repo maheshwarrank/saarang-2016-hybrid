@@ -49,12 +49,11 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers'])
         }
       }
     })
-    .state('app.playlists', {
-      url: '/playlists',
+    .state('app.sponsors', {
+      url: '/sponsors',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/sponsors.html'
         }
       }
     })

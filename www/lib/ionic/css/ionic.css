@@ -6298,7 +6298,7 @@ button.item.item-button-right {
   .item-avatar-left .item-image,
   .item-avatar-left .item-content > img:first-child,
   .item-avatar-left .item-content .item-image {
-    position: relative;
+    position: absolute;
     top: 16px;
     left: 16px;
     max-width: 40px;
@@ -6315,7 +6315,7 @@ button.item.item-button-right {
   .item-avatar-right .item-image,
   .item-avatar-right .item-content > img:first-child,
   .item-avatar-right .item-content .item-image {
-    position: relative;
+    position: absolute;
     top: 16px;
     right: 16px;
     max-width: 40px;
@@ -6333,7 +6333,7 @@ button.item.item-button-right {
   .item-thumbnail-left .item-image,
   .item-thumbnail-left .item-content > img:first-child,
   .item-thumbnail-left .item-content .item-image {
-    position: relative;
+    position: absolute;
     top: 10px;
     left: 10px;
     max-width: 80px;
