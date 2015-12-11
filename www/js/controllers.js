@@ -41,7 +41,25 @@ angular.module('saarang2016App.controllers', [])
   };
 })
 
+.controller('EventsCtrl',function($scope,$http){
 
+  var eventsReq = {
+    method: 'GET',
+    url: '../apis/events.json'
+  };
+  $http(eventsReq).then(function(response){
+    console.log(response);
+    $scope.events = response.data.sessions;
+    $scope.saarang = $scope.events.shift();
+    console.log($scope.saarang);
+    console.log($scope.events);
+    $scope.events1 = $scope.events.slice(0,50);
+    console.log($scope.events1);
+    $scope.events2 = $scope.events.slice(50,99);
+    console.log($scope.events2);
+  })
+
+})
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });

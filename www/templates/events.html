@@ -1,115 +1,43 @@
- <ion-view view-title="Events">
-  <!-- <ion-content>
-    <div class="list card">
-
-  <div class="item item-avatar">
-    <img src="mcfly.jpg">
-    <h2>EventName</h2>
-    <p>EventTime</p>
-  </div>
-
-  <div class="item item-body">
-    <img class="full-image" src="delorean.jpg">
-    <p>
-      EventDescription
-    </p>
-    <p>
-      <a href="#" class="subdued">1 Like</a>
-      <a href="#" class="subdued">5 Comments</a>
-    </p>
-  </div>
-
-  <div class="item tabs tabs-secondary tabs-icon-left">
-    <a class="tab-item" href="#">
-      <i class="icon ion-thumbsup"></i>
-      Like
-    </a>
-    <a class="tab-item" href="#">
-      <i class="icon ion-chatbox"></i>
-      Comment
-    </a>
-    <a class="tab-item" href="#">
-      <i class="icon ion-share"></i>
-      Share
-    </a>
-  </div>
-
-</div>
-  </ion-content> -->
+<ion-view view-title="Events">
 <ion-content>
-      
-    <div class="row">
-
-<!-- Column 1 -->
-      <div class="col col-50">
-          <!-- <div>
-          .col1
-          </div> -->
+  <div class="column">
+      <div>
           <div>
               <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
+                <div class="item item-image" id= "imgcontainer">
+                  <img src="{{saarang.photoUrl}}" id="myimage">
+                  <p id="eventname">{{saarang.title}}</p>
+                  <p id="eventtime">{{saarang.startTimestamp}}</p>                  
                 </div>
               </div>
-          </div>
-          <div>
-              <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
-                </div>
-              </div>
-          </div>
-          <div>
-              <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
-                </div>
-              </div>
-          </div>
-                   
+          </div>                   
       </div>
-<!-- Column 2 -->
+
+  <div class="row">
       <div class="col col-50">
-        <!-- <div>.col2</div> -->
           <div>
-              <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
+              <div class="list card" ng-repeat="event in events1" id="card">
+                <div class="item item-image" id= "imgcontainer">
+                  <img src="{{event.photoUrl}}" id="myimage">
+                  <p id="eventname">{{event.title}}</p>
+                  <p id="eventtime">{{event.startTimestamp}}</p>                  
                 </div>
               </div>
-          </div>
-          <div>
-              <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
-                </div>
-              </div>
-          </div>
-          <div>
-              <div class="list card">
-                <div class="item item-image" id="imgcontainer">
-                  <img src="img/download.jpeg" id="myimage">
-                  <p id="eventname">Event Name</p>
-                  <p id="eventtime">Event Time</p>                  
-                </div>
-              </div>
-          </div>
-
-
-
+          </div>                   
       </div>
-    </div>
-
+      <div class="col col-50" >
+          <div>
+              <div class="list card" ng-repeat="event in events2" id="card">
+                <div class="item item-image" id= "imgcontainer">
+                  <img src="{{event.photoUrl}}" id="myimage">
+                  <p id="eventname">{{event.title}}</p>
+                  <p id="eventtime">{{event.startTimestamp}}</p>                  
+                </div>
+              </div>
+          </div>                   
+      </div>
+  </div>
+  </div>
 </ion-content>
 
 </ion-view>

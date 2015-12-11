@@ -36,7 +36,8 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers'])
     url: '/events',
     views: {
       'menuContent': {
-        templateUrl: 'templates/events.html'
+        templateUrl: 'templates/events.html',
+         controller: 'EventsCtrl'
       }
     }
   })
@@ -53,8 +54,10 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers'])
       url: '/sponsors',
       views: {
         'menuContent': {
-          templateUrl: 'templates/sponsors.html'
+          templateUrl: 'templates/sponsors.html',
+          // controller: 'SponsorsCtrl'
         }
+
       }
     })
 
