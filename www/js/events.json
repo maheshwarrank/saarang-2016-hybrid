@@ -1,0 +1,3380 @@
+{
+    "map": [
+        {
+            "tiles": {
+                "0": {
+                    "url": "",
+                    "filename": "floor0-2014-v1.svg"
+                },
+                "1": {
+                    "url": "",
+                    "filename": "floor0-2014-v1.svg"
+                },
+                "2": {
+                    "url": "",
+                    "filename": "floor0-2014-v1.svg"
+                }
+            },
+            "config": {
+                "enableMyLocation": "true"
+            },
+            "markers": {
+                "0": [
+                    {
+                        "name": "SAC Bowl",
+                        "title": "SAC Bowl",
+                        "lat": 12.989288,
+                        "lng": 80.237736,
+                        "type": "session",
+                        "id": "sacb"
+                    },
+                    {
+                        "name": "SAC Middle Earth",
+                        "title": "SAC Middle Earth",
+                        "lat": 12.989288,
+                        "lng": 80.237736,
+                        "type": "session",
+                        "id": "sacme"
+                    },
+                    {
+                        "name": "ICSR Hall 1",
+                        "title": "ICSR Hall 1",
+                        "lat": 12.99174,
+                        "lng": 80.232086,
+                        "type": "session",
+                        "id": "icsrh1"
+                    },
+                    {
+                        "name": "ICSR Hall 3",
+                        "title": "ICSR Hall 3",
+                        "lat": 12.99174,
+                        "lng": 80.232096,
+                        "type": "session",
+                        "id": "icsrh3"
+                    },
+                    {
+                        "name": "ICSR Main Auditorium",
+                        "title": "ICSR Main Auditorium",
+                        "lat": 12.99174,
+                        "lng": 80.232076,
+                        "type": "session",
+                        "id": "icsrma"
+                    },
+                    {
+                        "name": "KV Grounds",
+                        "title": "KV Grounds",
+                        "lat": 12.99237,
+                        "lng": 80.233181,
+                        "type": "session",
+                        "id": "kvgrounds"
+                    },
+                    {
+                        "name": "CLT",
+                        "title": "CLT - Central Lecture Theatre",
+                        "lat": 12.989693,
+                        "lng": 80.232108,
+                        "type": "session",
+                        "id": "clt"
+                    },
+                    {
+                        "name": "PhLT",
+                        "title": "PhLT - Physics Lecture Theatre",
+                        "lat": 12.99013,
+                        "lng": 80.232093,
+                        "type": "session",
+                        "id": "phlt"
+                    },
+                    {
+                        "name": "DoMS 101",
+                        "title": "DoMS 101 - Dept. of Management Studies",
+                        "lat": 12.9914963,
+                        "lng": 80.234608,
+                        "type": "session",
+                        "id": "doms101"
+                    },
+                    {
+                        "name": "Informals Zone",
+                        "title": "Informals Zone",
+                        "lat": 12.9896597,
+                        "lng": 80.233285,
+                        "type": "session",
+                        "id": "informals"
+                    },
+                    {
+                        "name": "Music Park",
+                        "title": "Music Park",
+                        "lat": 12.989386,
+                        "lng": 80.2372439,
+                        "type": "session",
+                        "id": "music"
+                    },
+                    {
+                        "name": "Fine Arts Hut",
+                        "title": "Fine Arts Hut",
+                        "lat": 12.9892461,
+                        "lng": 80.2325279,
+                        "type": "session",
+                        "id": "finearts"
+                    },
+                    {
+                        "name": "Midnight Masters",
+                        "title": "Midnight Masters",
+                        "lat": 12.989433,
+                        "lng": 80.2336504,
+                        "type": "session",
+                        "id": "midnight"
+                    },
+                    {
+                        "name": "Stunt Zone",
+                        "title": "Stunt Zone",
+                        "lat": 12.991769,
+                        "lng": 80.23343,
+                        "type": "session",
+                        "id": "adrenaline"
+                    },
+                    {
+                        "name": "CRC 101",
+                        "title": "CRC 101 - Class Room Complex",
+                        "lat": 12.990262,
+                        "lng": 80.2303613,
+                        "type": "session",
+                        "id": "crc101"
+                    },
+                    {
+                        "name": "CRC 102",
+                        "title": "CRC 102 - Class Room Complex",
+                        "lat": 12.9900412,
+                        "lng": 80.2303452,
+                        "type": "session",
+                        "id": "crc102"
+                    },
+                    {
+                        "name": "CRC 103",
+                        "title": "CRC 103 - Class Room Complex",
+                        "lat": 12.9898628,
+                        "lng": 80.2303566,
+                        "type": "session",
+                        "id": "crc103"
+                    },
+                    {
+                        "name": "Main Gate",
+                        "title": "Main Gate",
+                        "lat": 13.006483,
+                        "lng": 80.242542,
+                        "type": "label",
+                        "id": "maingate"
+                    },
+                    {
+                        "name": "Taramani Gate",
+                        "title": "Taramani Gate",
+                        "lat": 12.984286,
+                        "lng": 80.238929,
+                        "type": "label",
+                        "id": "taramani"
+                    },
+                    {
+                        "name": "Velachery Gate",
+                        "title": "Velachery Gate",
+                        "lat": 12.987861,
+                        "lng": 80.223144,
+                        "type": "label",
+                        "id": "velachery"
+                    },
+                    {
+                        "name": "IIT Madras",
+                        "title": "IIT Madras",
+                        "lat": 12.99153,
+                        "lng": 80.233704,
+                        "type": "plainsession",
+                        "id": "iitm"
+                    },
+                    {
+                        "name": "Gajendra Circle",
+                        "title": "GC - Gajendra Circle",
+                        "lat": 12.99153,
+                        "lng": 80.233704,
+                        "type": "label",
+                        "id": "gc"
+                    },
+                    {
+                        "name": "OAT",
+                        "title": "OAT",
+                        "lat": 12.989017,
+                        "lng": 80.233637,
+                        "type": "session",
+                        "id": "oat"
+                    },
+                    {
+                        "name": "Himalaya",
+                        "title": "Himalaya Mess",
+                        "lat": 12.987035,
+                        "lng": 80.235963,
+                        "type": "plainsession",
+                        "id": "himalaya"
+                    },
+                    {
+                        "name": "Kickstart Cafe",
+                        "title": "Kickstart Cafe",
+                        "lat": 12.991363,
+                        "lng": 80.234372,
+                        "type": "plainsession",
+                        "id": "kickstart"
+                    },
+                    {
+                        "name": "SBI ATM",
+                        "title": "SBI ATM",
+                        "lat": 12.986282,
+                        "lng": 80.234159,
+                        "type": "plainsession",
+                        "id": "sbi"
+                    },
+                    {
+                        "name": "Gurunath Stores",
+                        "title": "Gurunath Stores",
+                        "lat": 12.98681,
+                        "lng": 80.235309,
+                        "type": "plainsession",
+                        "id": "gurunath"
+                    },
+                    {
+                        "name": "Campus Cafe",
+                        "title": "Campus Cafe",
+                        "lat": 12.9916557,
+                        "lng": 80.2318064,
+                        "type": "plainsession",
+                        "id": "campuscafe"
+                    }
+                ]
+            }
+        }
+    ],
+    "speakers": [
+        {
+            "bio": "No contact information available",
+            "name": "Jueeli More",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "freestylesolo_1"
+        },
+        {
+            "bio": "Tap on icon to call 9962670804",
+            "name": "Arya padmam",
+            "company": "",
+            "plusoneUrl": "9962670804",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "freestylesolo_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Amulya Ravipati",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "freestylesolo_3"
+        },
+        {
+            "bio": "Tap on icon to call 9962855654",
+            "name": "Venkatesh Kunigiri",
+            "company": "",
+            "plusoneUrl": "9962855654",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "freestylesolo_4"
+        },
+        {
+            "bio": "Tap on icon to call 9445404148",
+            "name": "Harish Venkat",
+            "company": "",
+            "plusoneUrl": "9445404148",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acoustyx_1"
+        },
+        {
+            "bio": "Tap on icon to call 9003103941",
+            "name": "Ashley Xavier",
+            "company": "",
+            "plusoneUrl": "9003103941",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acoustyx_2"
+        },
+        {
+            "bio": "Tap on icon to call 9962615051",
+            "name": "Rakesh Raffles Vakr",
+            "company": "",
+            "plusoneUrl": "9962615051",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acoustyx_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Anuj Sable",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acoustyx_4"
+        },
+        {
+            "bio": "Tap on icon to call 9003298876",
+            "name": "Ashish Noel",
+            "company": "",
+            "plusoneUrl": "9003298876",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acoustyx_5"
+        },
+        {
+            "bio": "Tap on icon to call 9445404148",
+            "name": "Harish Venkat",
+            "company": "",
+            "plusoneUrl": "9445404148",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acapella_1"
+        },
+        {
+            "bio": "Tap on icon to call 9003103941",
+            "name": "Ashley Xavier",
+            "company": "",
+            "plusoneUrl": "9003103941",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acapella_2"
+        },
+        {
+            "bio": "Tap on icon to call 9962615051",
+            "name": "Rakesh Raffles Vakr",
+            "company": "",
+            "plusoneUrl": "9962615051",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acapella_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Anuj Sable",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acapella_4"
+        },
+        {
+            "bio": "Tap on icon to call 9003298876",
+            "name": "Ashish Noel",
+            "company": "",
+            "plusoneUrl": "9003298876",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "acapella_5"
+        },
+        {
+            "bio": "Tap on icon to call 9003113881",
+            "name": "Srishtika Prakash",
+            "company": "",
+            "plusoneUrl": "9003113881",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "flashfiction_1"
+        },
+        {
+            "bio": "Tap on icon to call 9840288727",
+            "name": "Chandramouli Nasina",
+            "company": "",
+            "plusoneUrl": "9840288727",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "flashfiction_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003113881",
+            "name": "Srishtika Prakash",
+            "company": "",
+            "plusoneUrl": "9003113881",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onlinecreativewriting_1"
+        },
+        {
+            "bio": "Tap on icon to call 9840288727",
+            "name": "Chandramouli Nasina",
+            "company": "",
+            "plusoneUrl": "9840288727",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onlinecreativewriting_2"
+        },
+        {
+            "bio": "Tap on icon to call 9445286758",
+            "name": "Amritha Elangovan",
+            "company": "",
+            "plusoneUrl": "9445286758",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "scrabble_1"
+        },
+        {
+            "bio": "Tap on icon to call 9789809978",
+            "name": "Meghana PV",
+            "company": "",
+            "plusoneUrl": "9789809978",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "scrabble_2"
+        },
+        {
+            "bio": "Tap on icon to call 9884184060",
+            "name": "Shashwat Salgaocar",
+            "company": "",
+            "plusoneUrl": "9884184060",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "what'sthegoodword_1"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Sagar  Honnungar",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "what'sthegoodword_2"
+        },
+        {
+            "bio": "Tap on icon to call 9940023797",
+            "name": "Anjani Balu",
+            "company": "",
+            "plusoneUrl": "9940023797",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "elocution_1"
+        },
+        {
+            "bio": "Tap on icon to call 9840394348",
+            "name": "Sinduja Raja",
+            "company": "",
+            "plusoneUrl": "9840394348",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "elocution_2"
+        },
+        {
+            "bio": "Tap on icon to call 9677125940",
+            "name": "Anant Goswami",
+            "company": "",
+            "plusoneUrl": "9677125940",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "elocution_3"
+        },
+        {
+            "bio": "Tap on icon to call 9043807237",
+            "name": "Shubham Gupta",
+            "company": "",
+            "plusoneUrl": "9043807237",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "shortfilmmaking_1"
+        },
+        {
+            "bio": "Tap on icon to call 8149353561",
+            "name": "Pranav Talware",
+            "company": "",
+            "plusoneUrl": "8149353561",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "shortfilmmaking_2"
+        },
+        {
+            "bio": "Tap on icon to call 9884179703",
+            "name": "Ajay Tharwani",
+            "company": "",
+            "plusoneUrl": "9884179703",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "shortfilmmaking_3"
+        },
+        {
+            "bio": "Tap on icon to call 9043807237",
+            "name": "Shubham Gupta",
+            "company": "",
+            "plusoneUrl": "9043807237",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onlinephotographycontest_1"
+        },
+        {
+            "bio": "Tap on icon to call 8149353561",
+            "name": "Pranav Talware",
+            "company": "",
+            "plusoneUrl": "8149353561",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onlinephotographycontest_2"
+        },
+        {
+            "bio": "Tap on icon to call 9884179703",
+            "name": "Ajay Tharwani",
+            "company": "",
+            "plusoneUrl": "9884179703",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onlinephotographycontest_3"
+        },
+        {
+            "bio": "Tap on icon to call 9043807237",
+            "name": "Shubham Gupta",
+            "company": "",
+            "plusoneUrl": "9043807237",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "ongroundphotography_1"
+        },
+        {
+            "bio": "Tap on icon to call 8149353561",
+            "name": "Pranav Talware",
+            "company": "",
+            "plusoneUrl": "8149353561",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "ongroundphotography_2"
+        },
+        {
+            "bio": "Tap on icon to call 9884179703",
+            "name": "Ajay Tharwani",
+            "company": "",
+            "plusoneUrl": "9884179703",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "ongroundphotography_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Bisoy Sunitha",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "pinturadededo:thefingerpaintingcontest_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677764609",
+            "name": "Urmika Sinha",
+            "company": "",
+            "plusoneUrl": "9677764609",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "pinturadededo:thefingerpaintingcontest_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003035326",
+            "name": "G Purandhar Sai",
+            "company": "",
+            "plusoneUrl": "9003035326",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "pinturadededo:thefingerpaintingcontest_3"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Anand Aiyer",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "lonewolf_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677135707",
+            "name": "Prateek Vijayavargia",
+            "company": "",
+            "plusoneUrl": "9677135707",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "lonewolf_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Chandrasekhar Ramanujan",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "lonewolf_3"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Aravinda Bharathi",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "lonewolf_4"
+        },
+        {
+            "bio": "Tap on icon to call 9043257755",
+            "name": "Vaibhav Baheti",
+            "company": "",
+            "plusoneUrl": "9043257755",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "streetsports_1"
+        },
+        {
+            "bio": "Tap on icon to call 9445983277",
+            "name": "Kedarnath Goud",
+            "company": "",
+            "plusoneUrl": "9445983277",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_1"
+        },
+        {
+            "bio": "Tap on icon to call 9789855067",
+            "name": "ferril samal",
+            "company": "",
+            "plusoneUrl": "9789855067",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Giridhur Sriraman",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_3"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Ram Prashanth",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_4"
+        },
+        {
+            "bio": "Tap on icon to call 9789989172",
+            "name": "Vignesh Nv",
+            "company": "",
+            "plusoneUrl": "9789989172",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_5"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Vishal Ramesh",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_6"
+        },
+        {
+            "bio": "Tap on icon to call 9677081113",
+            "name": "Rathna Kumar",
+            "company": "",
+            "plusoneUrl": "9677081113",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "carnival_7"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Akash Kv",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "roadshows_1"
+        },
+        {
+            "bio": "Tap on icon to call 9940359027",
+            "name": "Mihir Sontake",
+            "company": "",
+            "plusoneUrl": "9940359027",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "roadshows_2"
+        },
+        {
+            "bio": "Tap on icon to call 8682979514",
+            "name": "Neel Kumar",
+            "company": "",
+            "plusoneUrl": "8682979514",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "roadshows_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Kranthi Tej",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "roadshows_4"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Bisoy Sunitha",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "kleikrafting:theclaysculptingworkshop_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677764609",
+            "name": "Urmika Sinha",
+            "company": "",
+            "plusoneUrl": "9677764609",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "kleikrafting:theclaysculptingworkshop_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003035326",
+            "name": "G Purandhar Sai",
+            "company": "",
+            "plusoneUrl": "9003035326",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "kleikrafting:theclaysculptingworkshop_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Bisoy Sunitha",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "thefacepaintingandtattoomakingcontest_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677764609",
+            "name": "Urmika Sinha",
+            "company": "",
+            "plusoneUrl": "9677764609",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "thefacepaintingandtattoomakingcontest_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003035326",
+            "name": "G Purandhar Sai",
+            "company": "",
+            "plusoneUrl": "9003035326",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "thefacepaintingandtattoomakingcontest_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Bisoy Sunitha",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "oekaki:thesketchingcontest_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677764609",
+            "name": "Urmika Sinha",
+            "company": "",
+            "plusoneUrl": "9677764609",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "oekaki:thesketchingcontest_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003035326",
+            "name": "G Purandhar Sai",
+            "company": "",
+            "plusoneUrl": "9003035326",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "oekaki:thesketchingcontest_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Bisoy Sunitha",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "cup-paintingcontest_1"
+        },
+        {
+            "bio": "Tap on icon to call 9677764609",
+            "name": "Urmika Sinha",
+            "company": "",
+            "plusoneUrl": "9677764609",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "cup-paintingcontest_2"
+        },
+        {
+            "bio": "Tap on icon to call 9003035326",
+            "name": "G Purandhar Sai",
+            "company": "",
+            "plusoneUrl": "9003035326",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "cup-paintingcontest_3"
+        },
+        {
+            "bio": "Tap on icon to call 9003113881",
+            "name": "Srishtika Prakash",
+            "company": "",
+            "plusoneUrl": "9003113881",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onsitecreativewriting_1"
+        },
+        {
+            "bio": "Tap on icon to call 9840288727",
+            "name": "Chandramouli Nasina",
+            "company": "",
+            "plusoneUrl": "9840288727",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "onsitecreativewriting_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Rushabh Menon",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "spentquiz_1"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Siddharth Srikanthan",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "spentquiz_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Abheek Dasgupta",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "spentquiz_3"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Mitul Shah",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker4_1"
+        },
+        {
+            "bio": "Tap on icon to call 9444161037",
+            "name": "Arjun Prasannan",
+            "company": "",
+            "plusoneUrl": "9444161037",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker4_2"
+        },
+        {
+            "bio": "Tap on icon to call 9790131584",
+            "name": "Gopika Gurudas",
+            "company": "",
+            "plusoneUrl": "9790131584",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker1_1"
+        },
+        {
+            "bio": "Tap on icon to call 9943409680",
+            "name": "Aparna Suresh",
+            "company": "",
+            "plusoneUrl": "9943409680",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker1_2"
+        },
+        {
+            "bio": "Tap on icon to call 9962615051",
+            "name": "Rakesh Raffles Vakr",
+            "company": "",
+            "plusoneUrl": "9962615051",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker1_3"
+        },
+        {
+            "bio": "Tap on icon to call ",
+            "name": "Akash Kv",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker1_4"
+        },
+        {
+            "bio": "Tap on icon to call 9884179703",
+            "name": "Ajay Tharwani",
+            "company": "",
+            "plusoneUrl": "9884179703",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker1_5"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Mitul Shah",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker5_1"
+        },
+        {
+            "bio": "Tap on icon to call 9444161037",
+            "name": "Arjun Prasannan",
+            "company": "",
+            "plusoneUrl": "9444161037",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker5_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Mitul Shah",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker3_1"
+        },
+        {
+            "bio": "Tap on icon to call 9444161037",
+            "name": "Arjun Prasannan",
+            "company": "",
+            "plusoneUrl": "9444161037",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker3_2"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Mitul Shah",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker6_1"
+        },
+        {
+            "bio": "Tap on icon to call 9444161037",
+            "name": "Arjun Prasannan",
+            "company": "",
+            "plusoneUrl": "9444161037",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "speaker6_2"
+        },
+        {
+            "bio": "Tap on icon to call 8695688666",
+            "name": "Vishal Katariya",
+            "company": "",
+            "plusoneUrl": "8695688666",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "travelandlivingquiz_1"
+        },
+        {
+            "bio": "No contact information available",
+            "name": "Shankar  Narayanan",
+            "company": "",
+            "plusoneUrl": "",
+            "thumbnailUrl": "https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-48.png",
+            "id": "travelandlivingquiz_2"
+        }
+    ],
+    "blocks": [],
+    "partners": [],
+    "video_library": [],
+    "sessions": [
+        {
+            "speakers": [],
+            "description": "<p>Saarang is the annual cultural festival of IIT Madras, and one of the top five best college festivals across the country. Over the years, Saarang has remained the preferred platform of an exhibition of culture, talent and competition for students from all over India, from the fields of dance, music, literature and more, all under one roof</p><p>For four days in January, IIT Madras is transformed into a hub of activity, with a large number of students, participants, and passers-by who enjoy the amalgam of events, food stalls, workshops and music shows. To the students of the institution and Chennai alike, Saarang is synonymous with culture, colour, fun, learning, and big names, big money, big dreams.</p><p>The pool of resources, great judges and opportunity it offers to young talent is a magnetic draw to students, while Chennai localites however, love Saarang for the yearly bonanza of big artistes from all over the world, performing at IIT as part of the professional and World Cultural shows. There is something for absolutely everybody, and we as we at Saarang say, this is truly the next Big Bang- see you at Saarang, for a truly out-of-the-world experience.</p>",
+            "photoUrl": "http://saarang.org/mobapp.jpg",
+            "url": "http://saarang.org/2015/main",
+            "startTimestamp": "2015-01-07T09:00:01Z",
+            "title": "Saarang 2015",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__",
+            "color": "#37EA6F",
+            "room": "iitm",
+            "hashtag": "saarang",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-07T16:00:00Z",
+            "tags": [
+                "FLAG_KEYNOTE"
+            ],
+            "captionsUrl": "12.9915263,80.2336853"
+        },
+        {
+            "speakers": [],
+            "description": "<p>Saarang IIT Madras presents two of the leading lights in the field of classical dance and music. Two women who have revolutionized the performing arts with their versatility and energy will grace the Open Air Theatre this January. Be there to see Padma Shri Aruna Sairam and Padma Shri Shobana enthral you.</p><p>Padma Shri Shobana Chandrakumar is an Indian film actress and Bharata Natyam dancer. Shobana was trained under the Bharata Natyam dancers Chitra Visweswaran and Padma Subrahmanyam. She emerged as an independent performer and choreographer in her twenties. Shobana danced Abhinaya, a pivotal element in Bharata Natyam. She has worked on collaborative ventures with the likes of tabla maestro Zakir Hussain, Vikku Vinayakram and Mandolin Srinivas. Her recitals abroad include those at the World Malayalee convention, United States, in Kuala Lumpur before the King and Queen of Malaysia and numerous other places. In 2006, the Indian Government honoured Shobana with the Padma Shri for her contributions towards the classical dance. In 2014, The Kerala Government honoured her with the Kala Ratna Award.</p><p>Padma Shri Aruna Sairam is an eminent Carnatic music vocalist. In concert she continually strives to deliver a unique experience through new repertoire. Aruna has had the rare distinction of performing in such venues as the Rashtrapati Bhavan, Shakthi Sthal and Vir Bhoomi. Aruna is one of her generation's pioneering vocalists in the sense of sensitising international audiences to the sound and feel of South Indian vocal music. The BBC Proms invited her to perform at London's Royal Albert Hall as the first South Indian classical vocalist in the Proms' history. Aruna has also performed at New York's Carnegie Hall, Theatre de la Ville in Paris and Morocco's Fes Festival of World Sacred Music. The awards with which she was honoured are Padma Shri from the Government of India and the Sangeet Natak Akademi Award, Government of India in 2014. Aruna Sairam has been appointed the Advisor to the Department of Culture, Tamil Nadu, on Musical Education by the Chief Minister of Tamil Nadu.</p><p>Come, witness these stalwarts of Indian Classical Arts inaugurate Saarang 2015 on the star-studded opening night. Entry is free for all.</p>",
+            "photoUrl": "https://scontent-b-hkg.xx.fbcdn.net/hphotos-xap1/t31.0-8/10633931_10152894895288754_832279855549353651_o.jpg",
+            "url": "http://saarang.org/2015/main/proshow/classicalnight",
+            "startTimestamp": "2015-01-07T12:30:00Z",
+            "title": "Classical Night - Shobana and Aruna Sairam",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__classical__",
+            "color": "#DFF913",
+            "room": "oat",
+            "hashtag": "ClassicalNight",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-07T16:30:00Z",
+            "tags": [
+                "FLAG_KEYNOTE",
+                "TAG_PROSHOWS"
+            ],
+            "captionsUrl": "12.9889517,80.2336926"
+        },
+        {
+            "speakers": [],
+            "description": "<p><a href='http://saarang.org/tickets'><b>TICKETS AT BOOKMYSHOW - SAARANG</b></a></p><p>Bring the music alive, unleash yourself, dance, dance and dance till you drop. Presenting the biggest inter-collegiate dance competition, Choreo Night Saarang, IIT Madras. #NextBigBang</p>",
+            "photoUrl": "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/p417x417/10665860_10152870151618754_6329641390005030213_n.jpg?oh=4b4a4bce6fdc1d8ecfd23438b131568c&oe=55455147&__gda__=1429213880_b05dae093461879471d34c7d45035698",
+            "url": "http://saarang.org/2015/main/proshow/choreonight",
+            "startTimestamp": "2015-01-08T12:30:00Z",
+            "title": "Choreo Night",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__choreo__",
+            "color": "#27451B",
+            "room": "oat",
+            "hashtag": "ChoreoNight",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-08T16:30:00Z",
+            "tags": [
+                "FLAG_KEYNOTE",
+                "TAG_PROSHOWS",
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "captionsUrl": "12.9889517,80.2336926"
+        },
+        {
+            "speakers": [],
+            "description": "<p><a href='http://saarang.org/tickets'><b>TICKETS AT BOOKMYSHOW - SAARANG</b></a></p><p>IIT Madras gives you the headlining acts for the Vh1 Supersonic 101 EDM Night at Saarang 2015 to be held on January 9th, 2015 at the OAT.</p><p><b>Nucleya</b></p><p>He's back to perform at Saarang, bigger and with a whole new bunch of bells and whistles in his arsenal. One simply cannot resist partying when he drops those Desi beats. Till date, he remains the biggest phenomenon of Dubstep in the country. He has 14 singles, studio albums and collaborations to his name and has performed at numerous music festivals around the world.</p><p><b>Thermal Projekt</b></p><p>Their passion and love for music, bonds their personalities together. Known for winning hearts with their smashing remixes, mashups and originals earned the duo their massive popularity on Facebook and Twitter. They have often shared the stage with international greats. Most recently, they opened for Dada Life Concert in Bangalore.</p><p><b>Progressive Brothers</b></p><p>Their style and identity comprises of 'Big room' Progressive House and melodies of Trance Music with the trace of Electro in it. Their debut track 'Veda' was in collaboration with Trance legend 'Richard Durand'. They have also featured on compilations 'Trance-Central 003', 'Amsterdam Dance Essentials' and 'Heaven Trance' along with some Top DJs from DJ Mag Top 100 such as Cosmic Gate and Stoneface.</p><p>EDM Night, the latest addition to the pro-shows, has taken Saarang by storm and promises to be a spectacle worth experiencing!</p>",
+            "photoUrl": "https://scontent-a-hkg.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/p417x417/10407724_10152845895118754_8546661407146452245_n.jpg?oh=9784464e67088ea3cd7aaa28658c27b0&oe=54FBAC1C",
+            "url": "http://saarang.org/2015/main/proshow/edm",
+            "startTimestamp": "2015-01-09T12:30:00Z",
+            "title": "EDM Night - Thermal Projekt, Nucleya, Progressive Brothers",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__edm__",
+            "color": "#37D985",
+            "room": "oat",
+            "hashtag": "EDMNight",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-09T16:30:00Z",
+            "tags": [
+                "FLAG_KEYNOTE",
+                "TAG_PROSHOWS"
+            ],
+            "captionsUrl": "12.9889517,80.2336926"
+        },
+        {
+            "speakers": [],
+            "description": "<p><a href='http://saarang.org/tickets'><b>TICKETS AT BOOKMYSHOW - SAARANG</b></a></p><p>IIT Madras is proud to announce Karnivool as the headlining act for the Rock Show at Saarang 2015. Karnivool will be performing live for the first time in Chennai, at the IIT Madras Open Air Theatre on January 10th, 2015.</p><p>Karnivool is an Australian progressive rock band from Perth, Australia, critically hailed as being one of the bands that established the Australian progressive rock and metal movement. They are considered to be amongst the few in Australia's rapidly growing music industry to still be bringing new and refreshing material to their catalogue. The five-member band consists of Ian Kenny on vocals, Drew Goddard and Mark Hosking on guitar, Jon Stockman on bass, and Steve Judd on drums.</p>",
+            "photoUrl": "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/s960x960/10629424_10152813251613754_955379862189032201_o.jpg",
+            "url": "http://saarang.org/2015/main/proshow/rockshow",
+            "startTimestamp": "2015-01-10T12:30:00Z",
+            "title": "Rockshow - Karnivool",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__rockshow__",
+            "color": "#58D4A3",
+            "room": "oat",
+            "hashtag": "RockShow",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-10T16:30:00Z",
+            "tags": [
+                "FLAG_KEYNOTE",
+                "TAG_PROSHOWS"
+            ],
+            "captionsUrl": "12.9889517,80.2336926"
+        },
+        {
+            "speakers": [],
+            "description": "<p><a href='http://saarang.org/tickets'><b>TICKETS AT BOOKMYSHOW - SAARANG</b></a></p><p>Saarang 2015 presents the scintillating Sunidhi Chauhan performing live at Popular Night. She is set to perform at the OAT IIT Madras on January 11th 2015.</p><p>Sunidhi Chauhan is one of the most popular Indian playback singers and performers today. Her main claim to fame is her active role in the Bollywood music industry. With 1000s of studio recordings over a few years she rapidly became one of India's most recorded voices and a popular name. She has also recorded songs in several other dialects and languages, such as Punjabi, Marathi, Kannada, Tamil, Telugu, Malayalam, Bengali and English. She has been awarded with prestigious national awards on several occasions and has established herself as the strongest live performer and singer in India to date. Sunidhi Chauhan made her International debut with the song Heartbeat, a collaboration with Enrique Iglesias. Sunidhi stepped into the world of playback singing with the 1996 Bollywood film, Shastra, lending her voice to the song 'Larki Deewaani Dekho, Ladka Deewaana.' By the age of nineteen, Sunidhi had lent her voice to over 350 songs. With blockbuster hits like 'Dance pe Chance', 'Sheila ki Jawani', 'Aaja Nachle' and 'Crazy Kiya Re' her voice has defined Bollywood music over the past decade.</p><p>Sunidhi is one of the most decorated Indian singers with 54 nominations for best playback singer. Having won the 'Best Playback Singer' award from Filmfare, International Indian Film Academy, Star Screen, GIMA and several others 20 times, she is undoubtedly the most gifted Bollywood playback singer of the present era. Legendary playback singer Lata Mangeshkar described Sunidhi as the 'numero uno' female singer of today while Shankar Mahadevan referred to her as the 'Best female singer and live performer today.'With greats such as Sonu Nigam, Vishal-Shekhar, Shankar-Ehsaan-Loy, Salim-Sulaiman having rocked the OAT at IIT Madras in the past, one expects an exciting performance at Popular Night each year. Sunidhi Chauhan is set raise the bar further this year with a plethora of songs which are bound to keep the crowd on their feet all night long.</p><p>We missed the 'first big bang', let's not miss the 'next one' at Saarang 2015!</p>",
+            "photoUrl": "https://scontent-a-hkg.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/p417x417/1743464_10152841504773754_6092583807272369215_n.jpg?oh=a0f6149b8b6e214daf5adacf8baa388e&oe=55428DCD",
+            "url": "http://saarang.org/2015/main/proshow/popularnight",
+            "startTimestamp": "2015-01-11T12:30:00Z",
+            "title": "Popular Night - Sunidhi Chauhan",
+            "youtubeUrl": "https://www.youtube.com/user/iitmsaarang",
+            "mainTag": "FLAG_KEYNOTE",
+            "id": "__keynote__popular__",
+            "color": "#BCF57C",
+            "room": "oat",
+            "hashtag": "PopularNight",
+            "isLivestream": true,
+            "endTimestamp": "2015-01-11T16:30:00Z",
+            "tags": [
+                "FLAG_KEYNOTE",
+                "TAG_PROSHOWS"
+            ],
+            "captionsUrl": "12.9889517,80.2336926"
+        },
+        {
+            "description": "<pre>  We have all dreamt of going up on stage and delivering the performance of our lives.&nbsp;Welcome to monoacting, where narcissism is not a bad thing. The stage is yours, the&nbsp;spotlight is on you, you and you alone will be remembered for that amazing performance&nbsp;you are about to put up! Because a great man once said &ldquo;There&rsquo;s nothing more boring than&nbsp;actors talking about acting&rdquo;, so practice hard, register quick and break a leg!  </pre>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/monoacting.png",
+            "color": "#FD9921",
+            "startTimestamp": "2015-01-08T05:00:00Z",
+            "hashtag": "Mono Acting",
+            "isLivestream": false,
+            "id": "_thespian_monoacting_Prelims_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Mono Acting Prelims",
+            "url": "http://saarang.org/2015/main/events/thespian/Mono Acting",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_THESPIAN"
+            ],
+            "mainTag": "TOPIC_THESPIAN",
+            "endTimestamp": "2015-01-08T08:00:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<pre>  We have all dreamt of going up on stage and delivering the performance of our lives.&nbsp;Welcome to monoacting, where narcissism is not a bad thing. The stage is yours, the&nbsp;spotlight is on you, you and you alone will be remembered for that amazing performance&nbsp;you are about to put up! Because a great man once said &ldquo;There&rsquo;s nothing more boring than&nbsp;actors talking about acting&rdquo;, so practice hard, register quick and break a leg!  </pre>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/monoacting.png",
+            "color": "#48C741",
+            "startTimestamp": "2015-01-08T08:30:00Z",
+            "hashtag": "Mono Acting",
+            "isLivestream": false,
+            "id": "_thespian_monoacting_Finals_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Mono Acting Finals",
+            "url": "http://saarang.org/2015/main/events/thespian/Mono Acting",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_THESPIAN"
+            ],
+            "mainTag": "TOPIC_THESPIAN",
+            "endTimestamp": "2015-01-08T10:00:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<blockquote>  <p>I like the ephemeral thing about theatre, every performance is like a ghost - it&#39;s there and&nbsp;then it&#39;s gone.</p>    <p>-Maggie Smith</p>  </blockquote>    <p>The Battle Royale of Theatre is back! Our flagship event, this promises to be great fun for both audience and performers alike. &nbsp;Come, be a part of the magic that is Saarang Dramatics 2016!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Saarang_Drams.png",
+            "color": "#EF6C34",
+            "startTimestamp": "2015-01-10T04:00:00Z",
+            "hashtag": "Dramatics",
+            "isLivestream": false,
+            "id": "_thespian_dramatics_Finals_",
+            "speakers": [],
+            "room": "clt",
+            "title": "Dramatics Finals",
+            "url": "http://saarang.org/2015/main/events/thespian/Dramatics",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_THESPIAN"
+            ],
+            "mainTag": "TOPIC_THESPIAN",
+            "endTimestamp": "2015-01-10T11:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Want to vent out those contained emotions? Want to voice out your opinions against the&nbsp;social order? Saarang gives you an enormous floating crowd while you display magnitudes&nbsp;of energy in order to make a change. Start a wave. Come do a street play at Saarang.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Street_Play.png",
+            "color": "#B0D04F",
+            "startTimestamp": "2015-01-11T09:00:00Z",
+            "hashtag": "Street Play",
+            "isLivestream": false,
+            "id": "_thespian_streetplay__",
+            "speakers": [],
+            "room": "music",
+            "title": "Street Play ",
+            "url": "http://saarang.org/2015/main/events/thespian/Street Play",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_THESPIAN"
+            ],
+            "mainTag": "TOPIC_THESPIAN",
+            "endTimestamp": "2015-01-11T11:30:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p><strong style=\"line-height:1.6\">Have you been going berserk to let your imagination flow in strokes and scribbles?</strong></p>    <p><strong>Hear Ye Lost Souls!</strong></p>    <p><strong>Saarang Fine Arts 2016 presents, OEKAKI :The Sketching Contest</strong></p>    <p><strong>Sound Familiar? Yep its time sketch with a dash of color folks! The good old Sketching Contest is back!</strong></p>    <p><strong style=\"line-height:1.6\">It is basically an event where A3 sheet and other materials will be provided to the&nbsp;</strong><strong style=\"line-height:1.6\">participants. There will be onspot registration following which the contest will take up&nbsp;</strong><strong style=\"line-height:1.6\">about 2 hours of time. Themes will also be announced few days before the event. The&nbsp;</strong><strong style=\"line-height:1.6\">first three winners selected by the judge will win cash.</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/3.png",
+            "color": "#257866",
+            "startTimestamp": "2015-01-08T08:30:00Z",
+            "hashtag": "Oekaki : The Sketching Contest",
+            "isLivestream": false,
+            "id": "_finearts_oekaki:thesketchingcontest__",
+            "speakers": [
+                "oekaki:thesketchingcontest_1",
+                "oekaki:thesketchingcontest_2",
+                "oekaki:thesketchingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "Oekaki : The Sketching Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/Oekaki : The Sketching Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-08T11:30:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p><strong>A dab here. A tweak there.</strong></p>    <p><strong>And Voila! You have a clay sculpture!</strong></p>    <p><strong>Clay is one of the most impressionable mediums in art. What can you not make with clay? An apple? An Oscar Idol? What about something even as abstract as a pit of flames?</strong></p>    <p><strong>Come with your friends and discover the wonders of moulding clay into your dreams at Saarang Fine Arts 2015!</strong></p>    <p><strong>Date : 10.1.2015</strong></p>    <p><strong>Time : 3 pm to 5.30 pm</strong></p>    <p><strong>Venue : Fine Arts Hut&nbsp;</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/6.png",
+            "color": "#82A113",
+            "startTimestamp": "2015-01-10T08:30:00Z",
+            "hashtag": "Klei Krafting : The Clay Sculpting Workshop",
+            "isLivestream": false,
+            "id": "_finearts_kleikrafting:theclaysculptingworkshop__",
+            "speakers": [
+                "kleikrafting:theclaysculptingworkshop_1",
+                "kleikrafting:theclaysculptingworkshop_2",
+                "kleikrafting:theclaysculptingworkshop_3"
+            ],
+            "room": "crc102",
+            "title": "Klei Krafting : The Clay Sculpting Workshop ",
+            "url": "http://saarang.org/2015/main/events/finearts/Klei Krafting : The Clay Sculpting Workshop",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-10T11:30:00Z",
+            "captionsUrl": "12.9900412,80.2303452"
+        },
+        {
+            "description": "<p><strong>You can be Joker. You can be Catwoman. Or Just a fierce Tribal!</strong></p>    <p><strong>Oh yes, you can be whoever you want and sail away with a prize. It&rsquo;s a win-win situation guys, so come and join us at The Face Painting and Tattoo making Contest presented to you by Saarang Fine Arts 2016!</strong></p>    <p><strong>We aren&rsquo;t on an undercover identity-destruction mission, so we will ensure completely organic and safe paints for your delicate skins!&nbsp; All you need is lots of enthusiasm and of course a friend who is willing to trust you with their face!</strong></p>    <p><strong>Well it&rsquo;s the same old event with some additions to it. This time we include tattoo&nbsp;making too. Well it&rsquo;s time to get a bit creative.</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/5.png",
+            "color": "#59FD5D",
+            "startTimestamp": "2015-01-09T06:30:00Z",
+            "hashtag": "The Face Painting and Tattoo Making Contest",
+            "isLivestream": false,
+            "id": "_finearts_thefacepaintingandtattoomakingcontest__",
+            "speakers": [
+                "thefacepaintingandtattoomakingcontest_1",
+                "thefacepaintingandtattoomakingcontest_2",
+                "thefacepaintingandtattoomakingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "The Face Painting and Tattoo Making Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/The Face Painting and Tattoo Making Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-09T09:30:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p><strong>This is the finger painting event where you slip, slide your fingers with gooey colors! Sounds like a funny combination? Finger painting is simply painting with fingers, and instead of using a brush, you dip your fingers in paint.</strong></p>    <p><strong>Come join us at Saarang Fine Arts 2015 and change the look of your paintings by smearing or blending colours with your fingers!</strong></p>    <p><strong>Date : 10.1.2015</strong></p>    <p><strong>Time : 10 a.m. to 1 pm</strong></p>    <p><strong>Venue : Fine Arts Hut&nbsp;</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/4_1.png",
+            "color": "#198301",
+            "startTimestamp": "2015-01-11T05:30:00Z",
+            "hashtag": "Pintura de Dedo : The Finger painting Contest",
+            "isLivestream": false,
+            "id": "_finearts_pinturadededo:thefingerpaintingcontest__",
+            "speakers": [
+                "pinturadededo:thefingerpaintingcontest_1",
+                "pinturadededo:thefingerpaintingcontest_2",
+                "pinturadededo:thefingerpaintingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "Pintura de Dedo : The Finger painting Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/Pintura de Dedo : The Finger painting Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-11T08:30:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p>Classical music and dance have been the proud testimony of India&rsquo;s rich cultural heritage. We at Saarang, provide you an opportune platform to indulge and enjoy the soul-soothing and awe-inspiring music and dance. Saarang 2016 brings to you four events under the Classical Arts, which are - <strong>Vocals (Carnatic and Hindustani), Instrumentals (Percussion), Instrumentals (Non-percussion) and Dance (Classical Solo)</strong>.</p>    <p>As someone rightly said, &ldquo;Music speaks that which cannot be said and on which it is impossible to be silent.&rdquo; And &ldquo;Dance is the most beautiful expression of your soul&rsquo;s poetry because it is no mere translation of life, but life itself.&rdquo;</p>    <p>Come! Let go! Participate and win exciting prizes! And take home beautiful renditions of classic memories!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/29.png",
+            "color": "#6A27AD",
+            "startTimestamp": "2015-01-08T04:00:00Z",
+            "hashtag": "Solo Dance",
+            "isLivestream": false,
+            "id": "_classicalarts_solodance_Prelims_",
+            "speakers": [],
+            "room": "phlt",
+            "title": "Solo Dance Prelims",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Solo Dance",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-08T07:00:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<ul>  \t<li>Artistes with B-high or higher grades in their respective fields in the AIR are not allowed to participate as this competition is meant for amateurs and semi-professionals.</li>  \t<li>Eligibility: Class 9 and above.</li>  \t<li>Hindustani and Carnatic will be judged together.</li>  \t<li>Electronic instruments are not allowed.</li>  \t<li>The participants will be required to give a list of three talams in which they are prepared to play a thani avarthanam or a solo piece.</li>  \t<li>The judges may ask them to play one more tala from the list provided. Participants may also be required to recite the korvais or other pieces played on judges&#39; demand.</li>  \t<li>Participants may play in Carnatic/Hindustani style. However, they will not be judged separately.</li>  \t<li>Time limit: 6 minutes, though this might change depending on the number of participants. Please stick to the time limit.</li>  \t<li>Any sort of assistance to aid rhythm like music, rhythm clocks etc. are not allowed.</li>  \t<li>We will make available an electronic shruti box. No other instruments will be made available.</li>  \t<li>Judges&#39; decision shall be final in all respects and should be accepted without question.</li>  </ul>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/classical_instrumental.png",
+            "color": "#C2C692",
+            "startTimestamp": "2015-01-11T08:30:00Z",
+            "hashtag": "Instrumentals Percussion",
+            "isLivestream": false,
+            "id": "_classicalarts_instrumentalspercussion__",
+            "speakers": [],
+            "room": "phlt",
+            "title": "Instrumentals Percussion ",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Instrumentals Percussion",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-11T12:30:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p>&ldquo;Raw, pure and sensile blend of voices, percussion, and strings&rdquo;. Quaint and poignant, LM Unplugged &nbsp;is here to unleash a whole new world of music, devoid of electronic manipulatoin. An acoustic light music band event, Unplugged is for the unconventional talents out there. Catapult yourself to a place where there are no distortions or pre-processing. Be it the packed audience, the exciting prizes or the expert judges, for the potpourri of music lovers out there, Unplugged is certainly the place to be.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#B4BA29",
+            "startTimestamp": "2015-01-08T04:00:00Z",
+            "hashtag": "Unplugged",
+            "isLivestream": false,
+            "id": "_lightmusic_unplugged__",
+            "speakers": [],
+            "room": "clt",
+            "title": "Unplugged ",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Unplugged",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-08T09:00:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Saarang gives you a platform to get out there and win hearts with your vocal talent. This solo singing competition in 2 stages pushes you to discover the best in you<strong>.&nbsp;</strong>Held in one of the best venues on campus, Vox is definitely a great stage for aspiring vocalists to showcase their talent.</p>    <p>&nbsp;</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/15.png",
+            "color": "#3A1D06",
+            "startTimestamp": "2015-01-08T09:30:00Z",
+            "hashtag": "Vox",
+            "isLivestream": false,
+            "id": "_westernmusic_vox_Prelims_",
+            "speakers": [],
+            "room": "clt",
+            "title": "Vox Prelims",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Vox",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-08T12:00:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Just can&rsquo;t get enough out of that overpowered vocal engine?</p>    <p>Ever compared your oratory skills to Mark Anthony and come away smiling?</p>    <p>Can your vocal wizardry bring back the dead from their graves?</p>    <p>Can your verbal swagger sway a crowd better than Mick Jagger?</p>    <p>If your answer is a &lsquo;Yes&rsquo; to any of the above questions, please do turn up for &ldquo;Elocution&rdquo;.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/elocution.png",
+            "color": "#3EE73D",
+            "startTimestamp": "2015-01-08T07:00:00Z",
+            "hashtag": "Elocution",
+            "isLivestream": false,
+            "id": "_speaking_elocution__",
+            "speakers": [
+                "elocution_1",
+                "elocution_2",
+                "elocution_3"
+            ],
+            "room": "phlt",
+            "title": "Elocution ",
+            "url": "http://saarang.org/2015/main/events/speaking/Elocution",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_SPEAKING"
+            ],
+            "mainTag": "TOPIC_SPEAKING",
+            "endTimestamp": "2015-01-08T10:00:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p>Make a mark this Saarang at one of the biggest college band competitions in the country. Fame, glory, fans, and most importantly a celebration of your music - watch it all work on your accord at Powerchords. It&#39;s your turn to strike a chord.</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/11.png",
+            "color": "#C03A71",
+            "startTimestamp": "2015-01-08T03:30:00Z",
+            "hashtag": "Powerchords",
+            "isLivestream": false,
+            "id": "_westernmusic_powerchords_Prelims_",
+            "speakers": [],
+            "room": "music",
+            "title": "Powerchords Prelims",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Powerchords",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-08T12:00:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p>Latin American Dances!!! Saarang gives you an opportunity to learn dance from the&nbsp;</p>    <p>masters! And for free!!!! So come along, register, and learn how to dance like you&nbsp;</p>    <p>always wanted to.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/dance_ws.png",
+            "color": "#7AFC2C",
+            "startTimestamp": "2015-01-08T05:00:00Z",
+            "hashtag": "Dance Workshops",
+            "isLivestream": false,
+            "id": "_choreo_danceworkshops_Salsa_",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Dance Workshops Salsa",
+            "url": "http://saarang.org/2015/main/events/choreo/Dance Workshops",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-08T08:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#9CCF2C",
+            "startTimestamp": "2015-01-08T10:00:00Z",
+            "hashtag": "Speaker 1",
+            "isLivestream": false,
+            "id": "_lecdems_speaker1__",
+            "speakers": [
+                "speaker1_1",
+                "speaker1_2",
+                "speaker1_3",
+                "speaker1_4",
+                "speaker1_5"
+            ],
+            "room": "icsrma",
+            "title": "Speaker 1 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 1",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-08T11:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>Do you know what Zyzzva is? Do AA, ZA and XI make perfect sense to you? Got vocabulary that will QUIZZIFY your opponent? Then Scrabble at Saarang is just the place for you! Have no clue what those words meant? Fret not, if you can spell, you can play Scrabble. Just grab a partner and come battle it out for Scrabble glory. May the Q be with U!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Quiz1_1.png",
+            "color": "#6B84F8",
+            "startTimestamp": "2015-01-08T10:00:00Z",
+            "hashtag": "Scrabble",
+            "isLivestream": false,
+            "id": "_wordgames_scrabble_Prelims_",
+            "speakers": [
+                "scrabble_1",
+                "scrabble_2"
+            ],
+            "room": "crc101",
+            "title": "Scrabble Prelims",
+            "url": "http://saarang.org/2015/main/events/wordgames/Scrabble",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-08T11:30:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>Music needs no words. Let your instrument do the talking at Sonata, Saarang&rsquo;s solo&nbsp;instrumental event.&nbsp;Stimulated by a wonderful atmosphere, this event is a must for those who wish to display their talent at a higher level.</p>    <p>&nbsp;</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/14.png",
+            "color": "#288B26",
+            "startTimestamp": "2015-01-09T03:30:00Z",
+            "hashtag": "Sonata",
+            "isLivestream": false,
+            "id": "_westernmusic_sonata__",
+            "speakers": [],
+            "room": "clt",
+            "title": "Sonata ",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Sonata",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-09T07:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p><strong style=\"line-height:1.6\">Have you been going berserk to let your imagination flow in strokes and scribbles?</strong></p>    <p><strong>Hear Ye Lost Souls!</strong></p>    <p><strong>Saarang Fine Arts 2016 presents, OEKAKI :The Sketching Contest</strong></p>    <p><strong>Sound Familiar? Yep its time sketch with a dash of color folks! The good old Sketching Contest is back!</strong></p>    <p><strong style=\"line-height:1.6\">It is basically an event where A3 sheet and other materials will be provided to the&nbsp;</strong><strong style=\"line-height:1.6\">participants. There will be onspot registration following which the contest will take up&nbsp;</strong><strong style=\"line-height:1.6\">about 2 hours of time. Themes will also be announced few days before the event. The&nbsp;</strong><strong style=\"line-height:1.6\">first three winners selected by the judge will win cash.</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/3.png",
+            "color": "#3BD911",
+            "startTimestamp": "2015-01-08T08:00:00Z",
+            "hashtag": "Oekaki : The Sketching Contest",
+            "isLivestream": false,
+            "id": "_finearts_oekaki:thesketchingcontest__",
+            "speakers": [
+                "oekaki:thesketchingcontest_1",
+                "oekaki:thesketchingcontest_2",
+                "oekaki:thesketchingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "Oekaki : The Sketching Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/Oekaki : The Sketching Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-08T12:00:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p><span style=\"line-height:1.6\">Classical music and dance have been the proud testimony of India&rsquo;s rich cultural heritage. We at Saarang, provide you an opportune platform to indulge and enjoy the soul-soothing and awe-inspiring music and dance. Saarang 2016 brings to you four events under the Classical Arts, which are - </span><strong style=\"line-height:1.6\">Vocals (Carnatic and Hindustani), Instrumentals (Percussion), Instrumentals (Non-percussion) and Dance (Classical Solo)</strong><span style=\"line-height:1.6\">.</span></p>    <p>As someone rightly said, &ldquo;Music speaks that which cannot be said and on which it is impossible to be silent.&rdquo; And &ldquo;Dance is the most beautiful expression of your soul&rsquo;s poetry because it is no mere translation of life, but life itself.&rdquo;</p>    <p>Come! Let go! Participate and win exciting prizes! And take home beautiful renditions of classic memories!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/32.png",
+            "color": "#4AEC5C",
+            "startTimestamp": "2015-01-09T03:30:00Z",
+            "hashtag": "Vocals",
+            "isLivestream": false,
+            "id": "_classicalarts_vocals_Prelims_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Vocals Prelims",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Vocals",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-09T08:00:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<p><span style=\"line-height:1.6\">Classical music and dance have been the proud testimony of India&rsquo;s rich cultural heritage. We at Saarang, provide you an opportune platform to indulge and enjoy the soul-soothing and awe-inspiring music and dance. Saarang 2016 brings to you four events under the Classical Arts, which are - </span><strong style=\"line-height:1.6\">Vocals (Carnatic and Hindustani), Instrumentals (Percussion), Instrumentals (Non-percussion) and Dance (Classical Solo)</strong><span style=\"line-height:1.6\">.</span></p>    <p>As someone rightly said, &ldquo;Music speaks that which cannot be said and on which it is impossible to be silent.&rdquo; And &ldquo;Dance is the most beautiful expression of your soul&rsquo;s poetry because it is no mere translation of life, but life itself.&rdquo;</p>    <p>Come! Let go! Participate and win exciting prizes! And take home beautiful renditions of classic memories!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/32.png",
+            "color": "#712F5E",
+            "startTimestamp": "2015-01-09T09:30:00Z",
+            "hashtag": "Vocals",
+            "isLivestream": false,
+            "id": "_classicalarts_vocals_Finals_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Vocals Finals",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Vocals",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-09T12:30:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<p>This stage, my dear friend, our very own light music flagship collegiate band hunt, has seen the geniuses of the people that are rocking the Indian music scenario of today, before they made it big. The likes of A.R Rahman, Anirudh Ravichander, Aalap Raju, Karthik and Drums Sivamani is what we&#39;re talking about. Now, this is one opportunity you&#39;ll certainly regret missing. So, come over then, and fight your way to the spotlight at our magnificent OAT as the opening act to the likes of Sunidhi Chauhan, Sonu Nigam and Shankar-Ehsaan-Loy among other mind-boggling initiatives.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/1.png",
+            "color": "#9A49D5",
+            "startTimestamp": "2015-01-09T04:00:00Z",
+            "hashtag": "Tarang",
+            "isLivestream": false,
+            "id": "_lightmusic_tarang_Prelims_",
+            "speakers": [],
+            "room": "music",
+            "title": "Tarang Prelims",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Tarang",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-09T09:00:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p>Make a mark this Saarang at one of the biggest college band competitions in the country. Fame, glory, fans, and most importantly a celebration of your music - watch it all work on your accord at Powerchords. It&#39;s your turn to strike a chord.</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/11.png",
+            "color": "#74062D",
+            "startTimestamp": "2015-01-09T09:00:00Z",
+            "hashtag": "Powerchords",
+            "isLivestream": false,
+            "id": "_westernmusic_powerchords_Finals_",
+            "speakers": [],
+            "room": "music",
+            "title": "Powerchords Finals",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Powerchords",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-09T12:30:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p>Nothing like a Dance Battle. And nothing like $TREET$ when it comes to<strong> B-Boying</strong> and <strong>Freestyle</strong>. $TREET$ is one of the biggest B-Boying and Freestyle events in India. Teams will be judged by the best B-Boys in the world like HAVIKORO, B-Boy GONZA ,B-Boy SPICE and B-Boy CHINO. If you have the moves to make people look on in awe, whether as a team or as an individual, this is the place to be! So join us at this dynamic stage as the voltage is turned high and the stage is charged. Be there!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/streets.png",
+            "color": "#328A7D",
+            "startTimestamp": "2015-01-09T04:00:00Z",
+            "hashtag": "$treet$",
+            "isLivestream": false,
+            "id": "_choreo_$treet$__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "$treet$ ",
+            "url": "http://saarang.org/2015/main/events/choreo/$treet$",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-09T08:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>Latin American Dances!!! Saarang gives you an opportunity to learn dance from the&nbsp;</p>    <p>masters! And for free!!!! So come along, register, and learn how to dance like you&nbsp;</p>    <p>always wanted to.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/dance_ws.png",
+            "color": "#91F09A",
+            "startTimestamp": "2015-01-09T09:00:00Z",
+            "hashtag": "Dance Workshops",
+            "isLivestream": false,
+            "id": "_choreo_danceworkshops__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Dance Workshops ",
+            "url": "http://saarang.org/2015/main/events/choreo/Dance Workshops",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-09T12:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#4E75B6",
+            "startTimestamp": "2015-01-09T08:30:00Z",
+            "hashtag": "Speaker 3",
+            "isLivestream": false,
+            "id": "_lecdems_speaker3__",
+            "speakers": [
+                "speaker3_1",
+                "speaker3_2"
+            ],
+            "room": "icsrma",
+            "title": "Speaker 3 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 3",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-09T10:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#6F8C89",
+            "startTimestamp": "2015-01-09T10:30:00Z",
+            "hashtag": "Speaker 4",
+            "isLivestream": false,
+            "id": "_lecdems_speaker4__",
+            "speakers": [
+                "speaker4_1",
+                "speaker4_2"
+            ],
+            "room": "icsrma",
+            "title": "Speaker 4 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 4",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-09T12:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>You will be asked whether you have heard of a certain sportsperson who is idolised by his fans. But if you haven&#39;t heard of him/her, don&#39;t worry, nobody is going to deface your Facebook. Add to that questions about black and white movies of then, the special effects of today, the gramophone records of the previous generation and today&#39;s SoundCloud generation, and you are going to have one of the most memorable college quizzes of your life.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Quiz3.png",
+            "color": "#2DFCC1",
+            "startTimestamp": "2015-01-09T04:00:00Z",
+            "hashtag": "SpEnt Quiz",
+            "isLivestream": false,
+            "id": "_quizzing_spentquiz__",
+            "speakers": [
+                "spentquiz_1",
+                "spentquiz_2",
+                "spentquiz_3"
+            ],
+            "room": "crc101",
+            "title": "SpEnt Quiz ",
+            "url": "http://saarang.org/2015/main/events/quizzing/SpEnt Quiz",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_QUIZZING"
+            ],
+            "mainTag": "TOPIC_QUIZZING",
+            "endTimestamp": "2015-01-09T05:30:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>Do you consider yourself an anagram virtuoso? Are you more of a walking-talking thesaurus? Or do you generally have a way with words? At Saarang 2015 we present you with the opportunity to prove that you are indeed a master of vocabulary and wordplay. Dazzle us with your stellar word power and saunter away with fabulous prizes.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/23.png",
+            "color": "#378F07",
+            "startTimestamp": "2015-01-09T06:00:00Z",
+            "hashtag": "What's The Good Word",
+            "isLivestream": false,
+            "id": "_wordgames_what'sthegoodword_Prelims_",
+            "speakers": [
+                "what'sthegoodword_1",
+                "what'sthegoodword_2"
+            ],
+            "room": "crc101",
+            "title": "What's The Good Word Prelims",
+            "url": "http://saarang.org/2015/main/events/wordgames/What's The Good Word",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-09T08:00:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>The on-spot event consists of two rounds, with the first round being general written round with a word limit and time limit. Second round has 5 prompts out of which you can choose one and start writing your work. There is a word limit and also time limit.</p>    <p>The Saarang On-Spot Creative Writing event takes place as two rounds. There is no pre-registration required.</p>    <p>Finals results available at prelims results tab.</p>    <p><span class=\"marker\"><em>All participants selected for finals be there at CRC 103</em></span></p>    <p><span class=\"marker\"><em>9th january</em></span></p>    <p><span class=\"marker\"><em>10:00am</em></span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/54.png",
+            "color": "#29FFA6",
+            "startTimestamp": "2015-01-08T06:00:00Z",
+            "hashtag": "Onsite Creative Writing",
+            "isLivestream": false,
+            "id": "_writing_onsitecreativewriting__",
+            "speakers": [
+                "onsitecreativewriting_1",
+                "onsitecreativewriting_2"
+            ],
+            "room": "crc102",
+            "title": "Onsite Creative Writing ",
+            "url": "http://saarang.org/2015/main/events/writing/Onsite Creative Writing",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WRITING"
+            ],
+            "mainTag": "TOPIC_WRITING",
+            "endTimestamp": "2015-01-08T08:00:00Z",
+            "captionsUrl": "12.9900412,80.2303452"
+        },
+        {
+            "description": "<p>So, you think you can go it alone onstage, be that one person army ( don&#39;t want to sound sexist there) and bring the roof down with your vocal prowess? Looking for a spotlight that would shine on you and only you? Stop right there because now you knowwhere you ought to be. Introducing our one and only light music solo singing competition, Alankar, where you can battle it out with over a hundred vocalists while being judged by the best singing talents out there. And then there is always the cash prize and other awesome goodies to look forward to...</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/18.png",
+            "color": "#A4A6B5",
+            "startTimestamp": "2015-01-11T03:30:00Z",
+            "hashtag": "Alankar",
+            "isLivestream": false,
+            "id": "_lightmusic_alankar_Finals_",
+            "speakers": [],
+            "room": "clt",
+            "title": "Alankar Finals",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Alankar",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-11T05:00:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>The on-spot event consists of two rounds, with the first round being general written round with a word limit and time limit. Second round has 5 prompts out of which you can choose one and start writing your work. There is a word limit and also time limit.</p>    <p>The Saarang On-Spot Creative Writing event takes place as two rounds. There is no pre-registration required.</p>    <p>Finals results available at prelims results tab.</p>    <p><span class=\"marker\"><em>All participants selected for finals be there at CRC 103</em></span></p>    <p><span class=\"marker\"><em>9th january</em></span></p>    <p><span class=\"marker\"><em>10:00am</em></span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/54.png",
+            "color": "#07F215",
+            "startTimestamp": "2015-01-09T04:30:00Z",
+            "hashtag": "Onsite Creative Writing",
+            "isLivestream": false,
+            "id": "_writing_onsitecreativewriting__",
+            "speakers": [
+                "onsitecreativewriting_1",
+                "onsitecreativewriting_2"
+            ],
+            "room": "crc103",
+            "title": "Onsite Creative Writing ",
+            "url": "http://saarang.org/2015/main/events/writing/Onsite Creative Writing",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WRITING"
+            ],
+            "mainTag": "TOPIC_WRITING",
+            "endTimestamp": "2015-01-09T06:30:00Z",
+            "captionsUrl": "12.9898628,80.2303566"
+        },
+        {
+            "description": "<p>These alliterative accomplices are all you need to set the stage on fire! Get the audience hooked on to every note as in reverberates through the hall with Acoustyx, Saarang&#39;s exclusive acoustic band competition; or better - woo the crowd with the magic of pure vocals at our very own Acappella singing event.</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/12.png",
+            "color": "#465F48",
+            "startTimestamp": "2015-01-11T05:00:00Z",
+            "hashtag": "Acoustyx",
+            "isLivestream": false,
+            "id": "_westernmusic_acoustyx__",
+            "speakers": [
+                "acoustyx_1",
+                "acoustyx_2",
+                "acoustyx_3",
+                "acoustyx_4",
+                "acoustyx_5"
+            ],
+            "room": "clt",
+            "title": "Acoustyx ",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Acoustyx",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-11T09:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Woo the crowd with the magic of pure vocals at our very own Acappella singing event.&nbsp;Who needs instruments when you&#39;ve got the power of your mellifluous vocals? Harmonize, sing out loud, clap and snap. Saarang&#39;s Acappella singing event is for all those college Acappella groups who have been awaiting their chance to show off their skills. Saarang&#39;s Acappella has seen kickass groups from around the country battle it out on the stage with their voices. Don&#39;t miss your turn!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/13.png",
+            "color": "#5AD4B7",
+            "startTimestamp": "2015-01-11T05:00:00Z",
+            "hashtag": "Acapella",
+            "isLivestream": false,
+            "id": "_westernmusic_acapella__",
+            "speakers": [
+                "acapella_1",
+                "acapella_2",
+                "acapella_3",
+                "acapella_4",
+                "acapella_5"
+            ],
+            "room": "clt",
+            "title": "Acapella ",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Acapella",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-11T09:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Attention Blabbermouths and wannabes,</p>    <p><span style=\"line-height:1.6\">Are you someone who can save yourself if talking your way out of trouble is the only way out?Can you cook up stories instantly and be the biggest grammar nazi ever at the same time? Do you have an urge to press hard (ahemm,we meant the buzzer) and make your way on to the top?Finally,if you think all it takes is &#39;Just A Minute&#39; to make the crowd fall in love with with you amidst the endless insults, Saarang JAM is the place to show off.</span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/jam.png",
+            "color": "#2C4663",
+            "startTimestamp": "2015-01-11T09:30:00Z",
+            "hashtag": "JAM",
+            "isLivestream": false,
+            "id": "_speaking_jam_Finals_",
+            "speakers": [],
+            "room": "clt",
+            "title": "JAM Finals",
+            "url": "http://saarang.org/2015/main/events/speaking/JAM",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_SPEAKING"
+            ],
+            "mainTag": "TOPIC_SPEAKING",
+            "endTimestamp": "2015-01-11T12:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<p>Do you know what Zyzzva is? Do AA, ZA and XI make perfect sense to you? Got vocabulary that will QUIZZIFY your opponent? Then Scrabble at Saarang is just the place for you! Have no clue what those words meant? Fret not, if you can spell, you can play Scrabble. Just grab a partner and come battle it out for Scrabble glory. May the Q be with U!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Quiz1_1.png",
+            "color": "#A009EF",
+            "startTimestamp": "2015-01-09T06:30:00Z",
+            "hashtag": "Scrabble",
+            "isLivestream": false,
+            "id": "_wordgames_scrabble_Finals_",
+            "speakers": [
+                "scrabble_1",
+                "scrabble_2"
+            ],
+            "room": "crc103",
+            "title": "Scrabble Finals",
+            "url": "http://saarang.org/2015/main/events/wordgames/Scrabble",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-09T12:30:00Z",
+            "captionsUrl": "12.9898628,80.2303566"
+        },
+        {
+            "description": "<p>Attention Blabbermouths and wannabes,</p>    <p><span style=\"line-height:1.6\">Are you someone who can save yourself if talking your way out of trouble is the only way out?Can you cook up stories instantly and be the biggest grammar nazi ever at the same time? Do you have an urge to press hard (ahemm,we meant the buzzer) and make your way on to the top?Finally,if you think all it takes is &#39;Just A Minute&#39; to make the crowd fall in love with with you amidst the endless insults, Saarang JAM is the place to show off.</span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/jam.png",
+            "color": "#1BFC73",
+            "startTimestamp": "2015-01-11T04:30:00Z",
+            "hashtag": "JAM",
+            "isLivestream": false,
+            "id": "_speaking_jam_Prelims_",
+            "speakers": [],
+            "room": "phlt",
+            "title": "JAM Prelims",
+            "url": "http://saarang.org/2015/main/events/speaking/JAM",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_SPEAKING"
+            ],
+            "mainTag": "TOPIC_SPEAKING",
+            "endTimestamp": "2015-01-11T08:00:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p><strong>You can be Joker. You can be Catwoman. Or Just a fierce Tribal!</strong></p>    <p><strong>Oh yes, you can be whoever you want and sail away with a prize. It&rsquo;s a win-win situation guys, so come and join us at The Face Painting and Tattoo making Contest presented to you by Saarang Fine Arts 2016!</strong></p>    <p><strong>We aren&rsquo;t on an undercover identity-destruction mission, so we will ensure completely organic and safe paints for your delicate skins!&nbsp; All you need is lots of enthusiasm and of course a friend who is willing to trust you with their face!</strong></p>    <p><strong>Well it&rsquo;s the same old event with some additions to it. This time we include tattoo&nbsp;making too. Well it&rsquo;s time to get a bit creative.</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/5.png",
+            "color": "#0E648C",
+            "startTimestamp": "2015-01-09T08:30:00Z",
+            "hashtag": "The Face Painting and Tattoo Making Contest",
+            "isLivestream": false,
+            "id": "_finearts_thefacepaintingandtattoomakingcontest__",
+            "speakers": [
+                "thefacepaintingandtattoomakingcontest_1",
+                "thefacepaintingandtattoomakingcontest_2",
+                "thefacepaintingandtattoomakingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "The Face Painting and Tattoo Making Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/The Face Painting and Tattoo Making Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-09T11:00:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<ul>  \t<li>Artistes with B-high or higher grades in their respective fields in the AIR are not allowed to participate as this competition is meant for amateurs and semi-professionals.</li>  \t<li>Eligibility: Class 9 and above.</li>  \t<li>Hindustani and Carnatic will be judged together.</li>  \t<li>Electronic instruments are not allowed.</li>  \t<li>The participants will be required to give a list of three talams in which they are prepared to play a thani avarthanam or a solo piece.</li>  \t<li>The judges may ask them to play one more tala from the list provided. Participants may also be required to recite the korvais or other pieces played on judges&#39; demand.</li>  \t<li>Participants may play in Carnatic/Hindustani style. However, they will not be judged separately.</li>  \t<li>Time limit: 6 minutes, though this might change depending on the number of participants. Please stick to the time limit.</li>  \t<li>Any sort of assistance to aid rhythm like music, rhythm clocks etc. are not allowed.</li>  \t<li>We will make available an electronic shruti box. No other instruments will be made available.</li>  \t<li>Judges&#39; decision shall be final in all respects and should be accepted without question.</li>  </ul>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/classical_instrumental.png",
+            "color": "#42C89F",
+            "startTimestamp": "2015-01-11T08:30:00Z",
+            "hashtag": "Instrumentals Percussion",
+            "isLivestream": false,
+            "id": "_classicalarts_instrumentalspercussion_Percussion and Non Percussion_",
+            "speakers": [],
+            "room": "phlt",
+            "title": "Instrumentals Percussion Percussion and Non Percussion",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Instrumentals Percussion",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-11T10:30:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#413735",
+            "startTimestamp": "2015-01-11T05:30:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_Team 8e BMX_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "kvgrounds",
+            "title": "Roadshows Team 8e BMX",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T06:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#069029",
+            "startTimestamp": "2015-01-11T07:30:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_Team 8e BMX_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "kvgrounds",
+            "title": "Roadshows Team 8e BMX",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T08:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#7F208D",
+            "startTimestamp": "2015-01-11T08:00:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_MRF Bike stunt_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "kvgrounds",
+            "title": "Roadshows MRF Bike stunt",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T09:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>Do you consider yourself an anagram virtuoso? Are you more of a walking-talking thesaurus? Or do you generally have a way with words? At Saarang 2015 we present you with the opportunity to prove that you are indeed a master of vocabulary and wordplay. Dazzle us with your stellar word power and saunter away with fabulous prizes.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/23.png",
+            "color": "#A05CF2",
+            "startTimestamp": "2015-01-10T04:00:00Z",
+            "hashtag": "What's The Good Word",
+            "isLivestream": false,
+            "id": "_wordgames_what'sthegoodword_Finals_",
+            "speakers": [
+                "what'sthegoodword_1",
+                "what'sthegoodword_2"
+            ],
+            "room": "phlt",
+            "title": "What's The Good Word Finals",
+            "url": "http://saarang.org/2015/main/events/wordgames/What's The Good Word",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-10T06:00:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p>Fancy yourself something of a wordsmith? Do you reach for the <em>Hindu </em>crossword as you have your morning coffee? Do word puzzles always keep you well entertained? Then this is an event you cannot miss. Grab a partner, gulp down your coffee, and show up with your hair in a braid.<br />  &nbsp;</p>    <p>Saarang Crossie is a word games event which pitches the participants against cryptic crossword clues. &nbsp;It&#39;s a test of wits rather than vocabulary, as opposed to the American (non-cryptic) crosswords.</p>    <p>The clues are not going to be all, <strong>say,</strong> <strong>English made simple (4)</strong>.</p>    <p>This is the ultimate battle of the cruciverbalists. &nbsp;Your choice of weapons : a pen, pencil or both.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/25.png",
+            "color": "#A1152E",
+            "startTimestamp": "2015-01-10T06:30:00Z",
+            "hashtag": "Crossie",
+            "isLivestream": false,
+            "id": "_wordgames_crossie_Prelims_",
+            "speakers": [],
+            "room": "phlt",
+            "title": "Crossie Prelims",
+            "url": "http://saarang.org/2015/main/events/wordgames/Crossie",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-10T08:30:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "<p><em><strong>Saarang Street Sports</strong></em> gives you the perfect opportunity to display the hidden sportsman inside you and compete with the best in the business. Participants can either play in teams or complete the skill games individually. Come to the streets and play!!</p>    <p>&nbsp;</p>    <p><em><strong>Registration is only for Last Man Standing Football</strong></em></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/41.png",
+            "color": "#B1A0F5",
+            "startTimestamp": "2015-01-11T09:00:00Z",
+            "hashtag": "Street Sports",
+            "isLivestream": false,
+            "id": "_informals_streetsports_Football Last man standing, Back heel penalty_",
+            "speakers": [
+                "streetsports_1"
+            ],
+            "room": "kvgrounds",
+            "title": "Street Sports Football Last man standing, Back heel penalty",
+            "url": "http://saarang.org/2015/main/events/informals/Street Sports",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T12:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>This stage, my dear friend, our very own light music flagship collegiate band hunt, has seen the geniuses of the people that are rocking the Indian music scenario of today, before they made it big. The likes of A.R Rahman, Anirudh Ravichander, Aalap Raju, Karthik and Drums Sivamani is what we&#39;re talking about. Now, this is one opportunity you&#39;ll certainly regret missing. So, come over then, and fight your way to the spotlight at our magnificent OAT as the opening act to the likes of Sunidhi Chauhan, Sonu Nigam and Shankar-Ehsaan-Loy among other mind-boggling initiatives.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/1.png",
+            "color": "#BCEA7D",
+            "startTimestamp": "2015-01-11T04:30:00Z",
+            "hashtag": "Tarang",
+            "isLivestream": false,
+            "id": "_lightmusic_tarang_Finals_",
+            "speakers": [],
+            "room": "music",
+            "title": "Tarang Finals",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Tarang",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-11T08:00:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#FA88B9",
+            "startTimestamp": "2015-01-10T05:30:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_BMX - Stunt_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "kvgrounds",
+            "title": "Roadshows BMX - Stunt",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T06:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p><em><strong>Saarang Street Sports</strong></em> gives you the perfect opportunity to display the hidden sportsman inside you and compete with the best in the business. Participants can either play in teams or complete the skill games individually. Come to the streets and play!!</p>    <p>&nbsp;</p>    <p><em><strong>Registration is only for Last Man Standing Football</strong></em></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/41.png",
+            "color": "#59C759",
+            "startTimestamp": "2015-01-10T06:30:00Z",
+            "hashtag": "Street Sports",
+            "isLivestream": false,
+            "id": "_informals_streetsports_Blind Basketball, Foursquare_",
+            "speakers": [
+                "streetsports_1"
+            ],
+            "room": "kvgrounds",
+            "title": "Street Sports Blind Basketball, Foursquare",
+            "url": "http://saarang.org/2015/main/events/informals/Street Sports",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T08:30:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>Latin American Dances!!! Saarang gives you an opportunity to learn dance from the&nbsp;</p>    <p>masters! And for free!!!! So come along, register, and learn how to dance like you&nbsp;</p>    <p>always wanted to.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/dance_ws.png",
+            "color": "#4F8F87",
+            "startTimestamp": "2015-01-11T04:30:00Z",
+            "hashtag": "Dance Workshops",
+            "isLivestream": false,
+            "id": "_choreo_danceworkshops_XYZ_",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Dance Workshops XYZ",
+            "url": "http://saarang.org/2015/main/events/choreo/Dance Workshops",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-11T07:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#0E6D41",
+            "startTimestamp": "2015-01-10T08:00:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_MRF Bike Stunt_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "kvgrounds",
+            "title": "Roadshows MRF Bike Stunt",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T09:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>How adept are you at solving clues? Think you have the mettle to unlock these complex cryptic clues to unravel the mysterious treasure? Then what are you waiting for? Come join the ultimate treasure hunt at Saarang! Be aware. Danger lurks at every corner.</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#70CE2B",
+            "startTimestamp": "2015-01-11T06:30:00Z",
+            "hashtag": "Treasure Hunt",
+            "isLivestream": false,
+            "id": "_informals_treasurehunt__",
+            "speakers": [],
+            "room": "sacme",
+            "title": "Treasure Hunt ",
+            "url": "http://saarang.org/2015/main/events/informals/Treasure Hunt",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T12:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p><em><strong>Saarang Street Sports</strong></em> gives you the perfect opportunity to display the hidden sportsman inside you and compete with the best in the business. Participants can either play in teams or complete the skill games individually. Come to the streets and play!!</p>    <p>&nbsp;</p>    <p><em><strong>Registration is only for Last Man Standing Football</strong></em></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/41.png",
+            "color": "#CBC049",
+            "startTimestamp": "2015-01-10T09:00:00Z",
+            "hashtag": "Street Sports",
+            "isLivestream": false,
+            "id": "_informals_streetsports_Football-Last Man Standing, Backheel Penalty_",
+            "speakers": [
+                "streetsports_1"
+            ],
+            "room": "kvgrounds",
+            "title": "Street Sports Football-Last Man Standing, Backheel Penalty",
+            "url": "http://saarang.org/2015/main/events/informals/Street Sports",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T12:00:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>Think it&rsquo;s time for your band to be launched into the limelight? Think you have what it takes to compete against some of the best bands in the country? Then waste no time and sign your band up for Saarang Decibels 2014, one of India&rsquo;s premier competitions for semi-professional bands to make your claim to fame.</p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/2.png",
+            "color": "#51675A",
+            "startTimestamp": "2015-01-10T03:30:00Z",
+            "hashtag": "Decibels",
+            "isLivestream": false,
+            "id": "_westernmusic_decibels_Prelims_",
+            "speakers": [],
+            "room": "music",
+            "title": "Decibels Prelims",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Decibels",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-10T09:00:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#E2DD26",
+            "startTimestamp": "2015-01-10T09:00:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_BMX Stunt_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "music",
+            "title": "Roadshows BMX Stunt",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T09:30:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p>Think it&rsquo;s time for your band to be launched into the limelight? Think you have what it takes to compete against some of the best bands in the country? Then waste no time and sign your band up for Saarang Decibels 2014, one of India&rsquo;s premier competitions for semi-professional bands to make your claim to fame.</p>    <p>&nbsp;</p>    <p>&nbsp;</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/2.png",
+            "color": "#11AB24",
+            "startTimestamp": "2015-01-10T09:30:00Z",
+            "hashtag": "Decibels",
+            "isLivestream": false,
+            "id": "_westernmusic_decibels_Finals_",
+            "speakers": [],
+            "room": "music",
+            "title": "Decibels Finals",
+            "url": "http://saarang.org/2015/main/events/westernmusic/Decibels",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WESTERNMUSIC"
+            ],
+            "mainTag": "TOPIC_WESTERNMUSIC",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.989386,80.2372439"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#25943A",
+            "startTimestamp": "2015-01-11T10:00:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_8 e BMX_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "informals",
+            "title": "Roadshows 8 e BMX",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T10:30:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "<p>How adept are you at solving clues? Think you have the mettle to unlock these complex cryptic clues to unravel the mysterious treasure? Then what are you waiting for? Come join the ultimate treasure hunt at Saarang! Be aware. Danger lurks at every corner.</p>    <p>&nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#2B94A7",
+            "startTimestamp": "2015-01-10T06:30:00Z",
+            "hashtag": "Treasure Hunt",
+            "isLivestream": false,
+            "id": "_informals_treasurehunt__",
+            "speakers": [],
+            "room": "sacme",
+            "title": "Treasure Hunt ",
+            "url": "http://saarang.org/2015/main/events/informals/Treasure Hunt",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T12:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#FFD3DC",
+            "startTimestamp": "2015-01-11T09:00:00Z",
+            "hashtag": "Speaker 5",
+            "isLivestream": false,
+            "id": "_lecdems_speaker5__",
+            "speakers": [
+                "speaker5_1",
+                "speaker5_2"
+            ],
+            "room": "icsrma",
+            "title": "Speaker 5 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 5",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-11T10:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>Latin American Dances!!! Saarang gives you an opportunity to learn dance from the&nbsp;</p>    <p>masters! And for free!!!! So come along, register, and learn how to dance like you&nbsp;</p>    <p>always wanted to.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/dance_ws.png",
+            "color": "#2AA19B",
+            "startTimestamp": "2015-01-10T03:30:00Z",
+            "hashtag": "Dance Workshops",
+            "isLivestream": false,
+            "id": "_choreo_danceworkshops_Dance Workshop -4 _",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Dance Workshops Dance Workshop -4 ",
+            "url": "http://saarang.org/2015/main/events/choreo/Dance Workshops",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-10T05:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>Want to feel the rush of doing something you&rsquo;ve never done before? Or the freedom that comes from&nbsp;letting go of all your fears? In other words, if you really want to have fun, then come play laser tag and&nbsp;bungee football and what not at our adventure zone. Also bring your friends, eat popcorn, play FIFA and&nbsp;chill out at our lounge!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/42.png",
+            "color": "#939B21",
+            "startTimestamp": "2015-01-11T03:30:00Z",
+            "hashtag": "Adrenaline Zone",
+            "isLivestream": false,
+            "id": "_informals_adrenalinezone__",
+            "speakers": [],
+            "room": "adrenaline",
+            "title": "Adrenaline Zone ",
+            "url": "http://saarang.org/2015/main/events/informals/Adrenaline Zone",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T12:30:00Z",
+            "captionsUrl": "12.991769,80.23343"
+        },
+        {
+            "description": "<p><em>&ldquo;Style is a way to say who you are without having to speak&rdquo;</em></p>    <p>This year Saarang brings back the most charismatic and glamorous fashion show of the city - &ldquo;Panache&rdquo;, which will leave you awestruck and asking for more.</p>    <p>Are you a model trying to make a mark in the fashion industry? Come with your team and be a part of Panache. Be a part of Saarang, and take back with you huge cash prizes, portfolios and something that&rsquo;s totally invaluable, i.e. <strong>experience</strong>!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/45.png",
+            "color": "#E7F50F",
+            "startTimestamp": "2015-01-10T05:30:00Z",
+            "hashtag": "Panache",
+            "isLivestream": false,
+            "id": "_lifestyle_panache__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Panache ",
+            "url": "http://saarang.org/2015/main/events/lifestyle/Panache",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIFESTYLE"
+            ],
+            "mainTag": "TOPIC_LIFESTYLE",
+            "endTimestamp": "2015-01-10T09:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>Fancy yourself something of a wordsmith? Do you reach for the <em>Hindu </em>crossword as you have your morning coffee? Do word puzzles always keep you well entertained? Then this is an event you cannot miss. Grab a partner, gulp down your coffee, and show up with your hair in a braid.<br />  &nbsp;</p>    <p>Saarang Crossie is a word games event which pitches the participants against cryptic crossword clues. &nbsp;It&#39;s a test of wits rather than vocabulary, as opposed to the American (non-cryptic) crosswords.</p>    <p>The clues are not going to be all, <strong>say,</strong> <strong>English made simple (4)</strong>.</p>    <p>This is the ultimate battle of the cruciverbalists. &nbsp;Your choice of weapons : a pen, pencil or both.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/25.png",
+            "color": "#E99D25",
+            "startTimestamp": "2015-01-11T04:00:00Z",
+            "hashtag": "Crossie",
+            "isLivestream": false,
+            "id": "_wordgames_crossie_Finals_",
+            "speakers": [],
+            "room": "crc101",
+            "title": "Crossie Finals",
+            "url": "http://saarang.org/2015/main/events/wordgames/Crossie",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_WORDGAMES"
+            ],
+            "mainTag": "TOPIC_WORDGAMES",
+            "endTimestamp": "2015-01-11T06:00:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>Ever wanted to show your hidden talents to the world and mesmerize audiences with your charisma?</p>    <p>Think you have it in you to be the face of Saarang?</p>    <p>Or are you waiting the perfect stage ?</p>    <p>If you have answered yes to any of the above questions, come off and participate, for there won&rsquo;t be a stage better than this.</p>    <p>Unleash the talent in you and may the force be with you!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/mr._and_mrs.png",
+            "color": "#740DC8",
+            "startTimestamp": "2015-01-10T09:30:00Z",
+            "hashtag": "Mr and Ms Saarang",
+            "isLivestream": false,
+            "id": "_lifestyle_mrandmssaarang__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Mr and Ms Saarang ",
+            "url": "http://saarang.org/2015/main/events/lifestyle/Mr and Ms Saarang",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIFESTYLE"
+            ],
+            "mainTag": "TOPIC_LIFESTYLE",
+            "endTimestamp": "2015-01-10T11:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "<p>For those who chose to define themselves through their moves; for those, who love spreading the joy of life through their dance. For those of you who have always awaited an opportunity to express yourself and show people your true self. Look no further. Saarang 2015 presents to you &ndash; Freestyle solo. A platform which let&#39;s you paint the world around you through your unique style and unleash the beast of dancing within yourself. So come and dance your heart away.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/4.png",
+            "color": "#6DCFB6",
+            "startTimestamp": "2015-01-10T08:30:00Z",
+            "hashtag": "Freestyle Solo",
+            "isLivestream": false,
+            "id": "_choreo_freestylesolo__",
+            "speakers": [
+                "freestylesolo_1",
+                "freestylesolo_2",
+                "freestylesolo_3",
+                "freestylesolo_4"
+            ],
+            "room": "informals",
+            "title": "Freestyle Solo ",
+            "url": "http://saarang.org/2015/main/events/choreo/Freestyle Solo",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CHOREO"
+            ],
+            "mainTag": "TOPIC_CHOREO",
+            "endTimestamp": "2015-01-10T11:00:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "<p><big>Roadshows at <em><strong>Saarang</strong></em>, aims to entertain you with a series of professional performances right on the streets of the beautiful <em><strong>IIT Madras</strong></em> campus, <em><strong>free of cost</strong></em>!</big></p>    <p><big>We get the finest performers of the country to keep you entertained. We promise you a wide variety of shows this <em><strong>Saarang</strong></em>! The shows are definitely worth waiting for! </big></p>    <p>&nbsp;</p>    <p><big>Stay tuned...!</big></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/47.png",
+            "color": "#0AFBB5",
+            "startTimestamp": "2015-01-10T11:00:00Z",
+            "hashtag": "Roadshows",
+            "isLivestream": false,
+            "id": "_informals_roadshows_BMX Stunt_",
+            "speakers": [
+                "roadshows_1",
+                "roadshows_2",
+                "roadshows_3",
+                "roadshows_4"
+            ],
+            "room": "informals",
+            "title": "Roadshows BMX Stunt",
+            "url": "http://saarang.org/2015/main/events/informals/Roadshows",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T11:30:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "<p>Have you exhausted your collection of Agatha Christie and Sherlock mysteries? Do you predict endings&nbsp;<span style=\"line-height:1.6\">of murder mysteries halfway into the story? Then Cluedo is perfect for you. So invoke Poirot, Sherlock&nbsp;</span><span style=\"line-height:1.6\">and other gods of the cryptic world and get ready to solve a mystery like no other!</span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/writing_events.png",
+            "color": "#20010F",
+            "startTimestamp": "2015-01-11T06:00:00Z",
+            "hashtag": "ClueDo",
+            "isLivestream": false,
+            "id": "_informals_cluedo_Finals_",
+            "speakers": [],
+            "room": "crc103",
+            "title": "ClueDo Finals",
+            "url": "http://saarang.org/2015/main/events/informals/ClueDo",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T08:00:00Z",
+            "captionsUrl": "12.9898628,80.2303566"
+        },
+        {
+            "description": "<p>So, you think you can go it alone onstage, be that one person army ( don&#39;t want to sound sexist there) and bring the roof down with your vocal prowess? Looking for a spotlight that would shine on you and only you? Stop right there because now you knowwhere you ought to be. Introducing our one and only light music solo singing competition, Alankar, where you can battle it out with over a hundred vocalists while being judged by the best singing talents out there. And then there is always the cash prize and other awesome goodies to look forward to...</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/18.png",
+            "color": "#D048DF",
+            "startTimestamp": "2015-01-10T04:00:00Z",
+            "hashtag": "Alankar",
+            "isLivestream": false,
+            "id": "_lightmusic_alankar_Prelims_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Alankar Prelims",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Alankar",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-10T09:30:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<p>So, you think you can go it alone onstage, be that one person army ( don&#39;t want to sound sexist there) and bring the roof down with your vocal prowess? Looking for a spotlight that would shine on you and only you? Stop right there because now you knowwhere you ought to be. Introducing our one and only light music solo singing competition, Alankar, where you can battle it out with over a hundred vocalists while being judged by the best singing talents out there. And then there is always the cash prize and other awesome goodies to look forward to...</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/18.png",
+            "color": "#10A211",
+            "startTimestamp": "2015-01-10T10:00:00Z",
+            "hashtag": "Alankar",
+            "isLivestream": false,
+            "id": "_lightmusic_alankar_Semi Finals_",
+            "speakers": [],
+            "room": "doms101",
+            "title": "Alankar Semi Finals",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Alankar",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-10T12:00:00Z",
+            "captionsUrl": "12.9914963,80.234608"
+        },
+        {
+            "description": "<p><strong style=\"line-height:1.6\">&ldquo;Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.&rdquo;&nbsp;-Scott Adams</strong></p>    <p><strong>Art is a shadow of what a person is thinking. A small glimpse of what they hold inside. Little&nbsp;secrets, regrets, joys...every line has its own meaning. It gives a person a chance to portray&nbsp;his/her imagination and present it aesthetically on paper. Fine art is that in which the hand, the&nbsp;head and the heart go together. Art knows no bounds and so should your creativity.</strong></p>    <p><strong>So come join us at Saarang Fine-arts and let your imagination run wild!</strong></p>    <p><strong>There are no pre-requisites to be a part of one of the most envied events of Saarang.</strong></p>    <p><strong>All YOU need is enthusiasm.</strong></p>    <p><strong><strong>&nbsp; &nbsp; &nbsp; </strong></strong><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></p>    <p><strong>Drag your friends along and win exciting prizes!</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/1_1.png",
+            "color": "#C820F5",
+            "startTimestamp": "2015-01-11T05:00:00Z",
+            "hashtag": "Cup-Painting Contest",
+            "isLivestream": false,
+            "id": "_finearts_cup-paintingcontest__",
+            "speakers": [
+                "cup-paintingcontest_1",
+                "cup-paintingcontest_2",
+                "cup-paintingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "Cup-Painting Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/Cup-Painting Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-11T08:30:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#6D2056",
+            "startTimestamp": "2015-01-10T08:30:00Z",
+            "hashtag": "Speaker 6",
+            "isLivestream": false,
+            "id": "_lecdems_speaker6__",
+            "speakers": [
+                "speaker6_1",
+                "speaker6_2"
+            ],
+            "room": "icsrma",
+            "title": "Speaker 6 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 6",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-10T10:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>To be announced!!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/",
+            "color": "#B9829F",
+            "startTimestamp": "2015-01-10T10:30:00Z",
+            "hashtag": "Speaker 2",
+            "isLivestream": false,
+            "id": "_lecdems_speaker2__",
+            "speakers": [],
+            "room": "icsrma",
+            "title": "Speaker 2 ",
+            "url": "http://saarang.org/2015/main/events/lecdems/Speaker 2",
+            "tags": [
+                "TAG_EVENTS",
+                "TAG_LECTURES",
+                "TOPIC_LECDEMS"
+            ],
+            "mainTag": "TOPIC_LECDEMS",
+            "endTimestamp": "2015-01-10T12:00:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>Want to feel the rush of doing something you&rsquo;ve never done before? Or the freedom that comes from&nbsp;letting go of all your fears? In other words, if you really want to have fun, then come play laser tag and&nbsp;bungee football and what not at our adventure zone. Also bring your friends, eat popcorn, play FIFA and&nbsp;chill out at our lounge!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/42.png",
+            "color": "#F0B38F",
+            "startTimestamp": "2015-01-10T03:30:00Z",
+            "hashtag": "Adrenaline Zone",
+            "isLivestream": false,
+            "id": "_informals_adrenalinezone_Laser Tag, Water Zorbing ,Air Rifles, Archery_",
+            "speakers": [],
+            "room": "adrenaline",
+            "title": "Adrenaline Zone Laser Tag, Water Zorbing ,Air Rifles, Archery",
+            "url": "http://saarang.org/2015/main/events/informals/Adrenaline Zone",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.991769,80.23343"
+        },
+        {
+            "description": "<p>A single person quiz. Written prelims, followed by a pre-final round for the top 16 qualifiers, followed by finals for the top 8.</p>    <p>Do you have it in you to survive an entire night of quizzing? Be ready to go up against&nbsp;</p>    <p>quizzers under the starry skies in the Open Air Theatre of IIT &ndash; Madras; be a part of the&nbsp;</p>    <p>event that crowns the King of college quizzing in India and see if you can be the one who&nbsp;</p>    <p>walks away with the title at the end of it.</p>    <p>Eligibility for this quiz:</p>    <p>1. Saarang Quizzes are open&nbsp;to&nbsp;<strong>full-time students</strong>&nbsp;from all disciplines.</p>    <p>2.&nbsp;The quiz is open to students from institutes that are affiliated to universities or are universities themselves.</p>    <p>3.&nbsp;It is&nbsp;<strong>NOT&nbsp;</strong>open for students from courses run by professional associations such as ICAI, ICSI etc. This list is merely indicative and NOT exhaustive.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/39.png",
+            "color": "#FF5C60",
+            "startTimestamp": "2015-01-10T04:30:00Z",
+            "hashtag": "Lonewolf",
+            "isLivestream": false,
+            "id": "_quizzing_lonewolf_Prelims_",
+            "speakers": [
+                "lonewolf_1",
+                "lonewolf_2",
+                "lonewolf_3",
+                "lonewolf_4"
+            ],
+            "room": "crc101",
+            "title": "Lonewolf Prelims",
+            "url": "http://saarang.org/2015/main/events/quizzing/Lonewolf",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_QUIZZING"
+            ],
+            "mainTag": "TOPIC_QUIZZING",
+            "endTimestamp": "2015-01-10T06:00:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>Have you exhausted your collection of Agatha Christie and Sherlock mysteries? Do you predict endings&nbsp;<span style=\"line-height:1.6\">of murder mysteries halfway into the story? Then Cluedo is perfect for you. So invoke Poirot, Sherlock&nbsp;</span><span style=\"line-height:1.6\">and other gods of the cryptic world and get ready to solve a mystery like no other!</span></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/writing_events.png",
+            "color": "#2BF883",
+            "startTimestamp": "2015-01-10T08:00:00Z",
+            "hashtag": "ClueDo",
+            "isLivestream": false,
+            "id": "_informals_cluedo_Prelims_",
+            "speakers": [],
+            "room": "crc101",
+            "title": "ClueDo Prelims",
+            "url": "http://saarang.org/2015/main/events/informals/ClueDo",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-10T09:30:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p>A single person quiz. Written prelims, followed by a pre-final round for the top 16 qualifiers, followed by finals for the top 8.</p>    <p>Do you have it in you to survive an entire night of quizzing? Be ready to go up against&nbsp;</p>    <p>quizzers under the starry skies in the Open Air Theatre of IIT &ndash; Madras; be a part of the&nbsp;</p>    <p>event that crowns the King of college quizzing in India and see if you can be the one who&nbsp;</p>    <p>walks away with the title at the end of it.</p>    <p>Eligibility for this quiz:</p>    <p>1. Saarang Quizzes are open&nbsp;to&nbsp;<strong>full-time students</strong>&nbsp;from all disciplines.</p>    <p>2.&nbsp;The quiz is open to students from institutes that are affiliated to universities or are universities themselves.</p>    <p>3.&nbsp;It is&nbsp;<strong>NOT&nbsp;</strong>open for students from courses run by professional associations such as ICAI, ICSI etc. This list is merely indicative and NOT exhaustive.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/39.png",
+            "color": "#DAB6E4",
+            "startTimestamp": "2015-01-10T10:00:00Z",
+            "hashtag": "Lonewolf",
+            "isLivestream": false,
+            "id": "_quizzing_lonewolf_Semifinals_",
+            "speakers": [
+                "lonewolf_1",
+                "lonewolf_2",
+                "lonewolf_3",
+                "lonewolf_4"
+            ],
+            "room": "crc101",
+            "title": "Lonewolf Semifinals",
+            "url": "http://saarang.org/2015/main/events/quizzing/Lonewolf",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_QUIZZING"
+            ],
+            "mainTag": "TOPIC_QUIZZING",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.990262,80.2303613"
+        },
+        {
+            "description": "<p><em><strong>Saarang Street Sports</strong></em> gives you the perfect opportunity to display the hidden sportsman inside you and compete with the best in the business. Participants can either play in teams or complete the skill games individually. Come to the streets and play!!</p>    <p>&nbsp;</p>    <p><em><strong>Registration is only for Last Man Standing Football</strong></em></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/41.png",
+            "color": "#FE4CCA",
+            "startTimestamp": "2015-01-11T06:00:00Z",
+            "hashtag": "Street Sports",
+            "isLivestream": false,
+            "id": "_informals_streetsports_Blind Basketball, Four Square_",
+            "speakers": [
+                "streetsports_1"
+            ],
+            "room": "kvgrounds",
+            "title": "Street Sports Blind Basketball, Four Square",
+            "url": "http://saarang.org/2015/main/events/informals/Street Sports",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T07:30:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "<p>Want to feel the rush of doing something you&rsquo;ve never done before? Or the freedom that comes from&nbsp;letting go of all your fears? In other words, if you really want to have fun, then come play laser tag and&nbsp;bungee football and what not at our adventure zone. Also bring your friends, eat popcorn, play FIFA and&nbsp;chill out at our lounge!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/42.png",
+            "color": "#B385E1",
+            "startTimestamp": "2015-01-11T03:30:00Z",
+            "hashtag": "Adrenaline Zone",
+            "isLivestream": false,
+            "id": "_informals_adrenalinezone_Air Rifles, Zorbing, Laser Tag, Archery_",
+            "speakers": [],
+            "room": "adrenaline",
+            "title": "Adrenaline Zone Air Rifles, Zorbing, Laser Tag, Archery",
+            "url": "http://saarang.org/2015/main/events/informals/Adrenaline Zone",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_INFORMALS"
+            ],
+            "mainTag": "TOPIC_INFORMALS",
+            "endTimestamp": "2015-01-11T12:30:00Z",
+            "captionsUrl": "12.991769,80.23343"
+        },
+        {
+            "description": "<p><strong>This is the finger painting event where you slip, slide your fingers with gooey colors! Sounds like a funny combination? Finger painting is simply painting with fingers, and instead of using a brush, you dip your fingers in paint.</strong></p>    <p><strong>Come join us at Saarang Fine Arts 2015 and change the look of your paintings by smearing or blending colours with your fingers!</strong></p>    <p><strong>Date : 10.1.2015</strong></p>    <p><strong>Time : 10 a.m. to 1 pm</strong></p>    <p><strong>Venue : Fine Arts Hut&nbsp;</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/4_1.png",
+            "color": "#84802F",
+            "startTimestamp": "2015-01-10T04:30:00Z",
+            "hashtag": "Pintura de Dedo : The Finger painting Contest",
+            "isLivestream": false,
+            "id": "_finearts_pinturadededo:thefingerpaintingcontest__",
+            "speakers": [
+                "pinturadededo:thefingerpaintingcontest_1",
+                "pinturadededo:thefingerpaintingcontest_2",
+                "pinturadededo:thefingerpaintingcontest_3"
+            ],
+            "room": "finearts",
+            "title": "Pintura de Dedo : The Finger painting Contest ",
+            "url": "http://saarang.org/2015/main/events/finearts/Pintura de Dedo : The Finger painting Contest",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-10T08:00:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p><strong>A dab here. A tweak there.</strong></p>    <p><strong>And Voila! You have a clay sculpture!</strong></p>    <p><strong>Clay is one of the most impressionable mediums in art. What can you not make with clay? An apple? An Oscar Idol? What about something even as abstract as a pit of flames?</strong></p>    <p><strong>Come with your friends and discover the wonders of moulding clay into your dreams at Saarang Fine Arts 2015!</strong></p>    <p><strong>Date : 10.1.2015</strong></p>    <p><strong>Time : 3 pm to 5.30 pm</strong></p>    <p><strong>Venue : Fine Arts Hut&nbsp;</strong></p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/6.png",
+            "color": "#D75185",
+            "startTimestamp": "2015-01-10T09:30:00Z",
+            "hashtag": "Klei Krafting : The Clay Sculpting Workshop",
+            "isLivestream": false,
+            "id": "_finearts_kleikrafting:theclaysculptingworkshop__",
+            "speakers": [
+                "kleikrafting:theclaysculptingworkshop_1",
+                "kleikrafting:theclaysculptingworkshop_2",
+                "kleikrafting:theclaysculptingworkshop_3"
+            ],
+            "room": "finearts",
+            "title": "Klei Krafting : The Clay Sculpting Workshop ",
+            "url": "http://saarang.org/2015/main/events/finearts/Klei Krafting : The Clay Sculpting Workshop",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_FINEARTS"
+            ],
+            "mainTag": "TOPIC_FINEARTS",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.9892461,80.2325279"
+        },
+        {
+            "description": "<p><strong>ABOUT</strong></p>    <p>Cinema is the most complex and powerful art form in the present world. It can help us to better understand our own lives, the lives of those around us and even how our society and culture operate. They can shed light on political and spiritual matters too and can provide catharsis and perspective and may open our eyes to new ways of thinking, feeling and pursuing our lives. University students are the most important part for the future of India. In all the important stages of our history, students played a vital role. It is through this beauty of &lsquo;man-made&rsquo; art, called cinema that we&rsquo;re able to connect to each other. Here, at Saarang, we wish to relive a dream where you are the creators of a dream world. Let the magic happen!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/film_festival_opc_onground_photography_1.png",
+            "color": "#9112C8",
+            "startTimestamp": "2015-01-11T06:30:00Z",
+            "hashtag": "Short Film Making",
+            "isLivestream": false,
+            "id": "_designmedia_shortfilmmaking_Saarang Film Festival_",
+            "speakers": [
+                "shortfilmmaking_1",
+                "shortfilmmaking_2",
+                "shortfilmmaking_3"
+            ],
+            "room": "icsrma",
+            "title": "Short Film Making Saarang Film Festival",
+            "url": "http://saarang.org/2015/main/events/designmedia/Short Film Making",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_DESIGNMEDIA"
+            ],
+            "mainTag": "TOPIC_DESIGNMEDIA",
+            "endTimestamp": "2015-01-11T09:30:00Z",
+            "captionsUrl": "12.99174,80.232076"
+        },
+        {
+            "description": "<p>A single person quiz. Written prelims, followed by a pre-final round for the top 16 qualifiers, followed by finals for the top 8.</p>    <p>Do you have it in you to survive an entire night of quizzing? Be ready to go up against&nbsp;</p>    <p>quizzers under the starry skies in the Open Air Theatre of IIT &ndash; Madras; be a part of the&nbsp;</p>    <p>event that crowns the King of college quizzing in India and see if you can be the one who&nbsp;</p>    <p>walks away with the title at the end of it.</p>    <p>Eligibility for this quiz:</p>    <p>1. Saarang Quizzes are open&nbsp;to&nbsp;<strong>full-time students</strong>&nbsp;from all disciplines.</p>    <p>2.&nbsp;The quiz is open to students from institutes that are affiliated to universities or are universities themselves.</p>    <p>3.&nbsp;It is&nbsp;<strong>NOT&nbsp;</strong>open for students from courses run by professional associations such as ICAI, ICSI etc. This list is merely indicative and NOT exhaustive.</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/39.png",
+            "color": "#7A43B8",
+            "startTimestamp": "2015-01-10T04:00:00Z",
+            "hashtag": "Lonewolf",
+            "isLivestream": false,
+            "id": "_quizzing_lonewolf_Finals_",
+            "speakers": [
+                "lonewolf_1",
+                "lonewolf_2",
+                "lonewolf_3",
+                "lonewolf_4"
+            ],
+            "room": "midnight",
+            "title": "Lonewolf Finals",
+            "url": "http://saarang.org/2015/main/events/quizzing/Lonewolf",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_QUIZZING"
+            ],
+            "mainTag": "TOPIC_QUIZZING",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.989433,80.2336504"
+        },
+        {
+            "description": "<p>Classical music and dance have been the proud testimony of India&rsquo;s rich cultural heritage. We at Saarang, provide you an opportune platform to indulge and enjoy the soul-soothing and awe-inspiring music and dance. Saarang 2016 brings to you four events under the Classical Arts, which are - <strong>Vocals (Carnatic and Hindustani), Instrumentals (Percussion), Instrumentals (Non-percussion) and Dance (Classical Solo)</strong>.</p>    <p>As someone rightly said, &ldquo;Music speaks that which cannot be said and on which it is impossible to be silent.&rdquo; And &ldquo;Dance is the most beautiful expression of your soul&rsquo;s poetry because it is no mere translation of life, but life itself.&rdquo;</p>    <p>Come! Let go! Participate and win exciting prizes! And take home beautiful renditions of classic memories!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/29.png",
+            "color": "#E1413A",
+            "startTimestamp": "2015-01-09T08:30:00Z",
+            "hashtag": "Solo Dance",
+            "isLivestream": false,
+            "id": "_classicalarts_solodance_Finals_",
+            "speakers": [],
+            "room": "phlt",
+            "title": "Solo Dance Finals",
+            "url": "http://saarang.org/2015/main/events/classicalarts/Solo Dance",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_CLASSICALARTS"
+            ],
+            "mainTag": "TOPIC_CLASSICALARTS",
+            "endTimestamp": "2015-01-09T11:30:00Z",
+            "captionsUrl": "12.99013,80.232093"
+        },
+        {
+            "description": "HUMANFOLK is the musical brainchild of well-known guitarist composer Johnny Alegre. This collective is a pioneering effort marking the convergence in a contemporary Philippine setting of multiple musical idioms such as jazz, rock and electronic music. They were conferred with the Awit Award for their hit song “Para Sa Tao” as Best World Music Recording by the Philippine Association of the Record Industry. With their soothing and rejuvenating music, they are sure to warm the hearts of Saarang audiences.  ",
+            "photoUrl": "http://erp.saarang.org/media/events/HUMANFOLK_on_stage.jpg",
+            "color": "#4B6E1C",
+            "startTimestamp": "2015-01-11T10:30:00Z",
+            "hashtag": "Humanfolk",
+            "isLivestream": false,
+            "id": "_worldfest_humanfolk__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Humanfolk ",
+            "url": "http://saarang.org/2015/main/events/worldfest/Humanfolk",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-11T12:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "Inca Babies are a post-punk rock band from Man¬chester, England featuring founder member and famous songwriter Harry Stafford on guitars and vocals. For all those death rock lovers out there this is the hallmark.",
+            "photoUrl": "http://erp.saarang.org/media/events/Inca_Babies_1.jpg",
+            "color": "#05267E",
+            "startTimestamp": "2015-01-10T11:00:00Z",
+            "hashtag": "Inca Babies ",
+            "isLivestream": false,
+            "id": "_worldfest_incababies__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "Inca Babies  ",
+            "url": "http://saarang.org/2015/main/events/worldfest/Inca Babies ",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-10T12:30:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "This Israeli band combines post-rock, live electronics, psychedelic and groove, forming a powerful, su¬per-intensive musical mix. With broken beats, unique guitar playing, fat bass and fresh synthesized sounds, the fingers integrate the messy intensity of rock mu¬sic with the ecstasy of elec¬tronic raves, creating a thick, unrelenting sound trip.",
+            "photoUrl": "http://erp.saarang.org/media/events/tiny-fingers_2.jpg",
+            "color": "#F05751",
+            "startTimestamp": "2015-01-09T13:00:00Z",
+            "hashtag": "Tiny Fingers",
+            "isLivestream": false,
+            "id": "_worldfest_tinyfingers__",
+            "speakers": [],
+            "room": "oat",
+            "title": "Tiny Fingers ",
+            "url": "http://saarang.org/2015/main/events/worldfest/Tiny Fingers",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-09T14:00:00Z",
+            "captionsUrl": "12.989017,80.233637"
+        },
+        {
+            "description": "One of the most successful rappers in Singapore, this famous personality has topped the Singapore R&B charts multi¬ple times. Heard all over the Singaporean radio for his energetic rapping, this is one of the many firsts for Saarang.",
+            "photoUrl": "http://erp.saarang.org/media/events/Mark_Bonafide_2.jpg",
+            "color": "#8E1ACF",
+            "startTimestamp": "2015-01-10T07:00:00Z",
+            "hashtag": "Mark Bonafide ",
+            "isLivestream": false,
+            "id": "_worldfest_markbonafide__",
+            "speakers": [],
+            "room": "informals",
+            "title": "Mark Bonafide  ",
+            "url": "http://saarang.org/2015/main/events/worldfest/Mark Bonafide ",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-10T08:30:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "It starts off with a few kicks of the football and transforms into show that captures one's imagination. Over the past decade Pawel Skora has mastered, furthered and rewritten every trick in the book. Here freestyle football and music converge to enchant all your senses. It's a show which took Poland by storm and is now fascinating the rest of the world.",
+            "photoUrl": "http://erp.saarang.org/media/events/PawelSkora2.jpg",
+            "color": "#381D33",
+            "startTimestamp": "2015-01-08T09:00:00Z",
+            "hashtag": "Pawel Skora",
+            "isLivestream": false,
+            "id": "_worldfest_pawelskora_Kicks of Fury - I_",
+            "speakers": [],
+            "room": "informals",
+            "title": "Pawel Skora Kicks of Fury - I",
+            "url": "http://saarang.org/2015/main/events/worldfest/Pawel Skora",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-08T10:00:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "The Romanian Indie electro outfit formed in 2005, fuelled by their passion for the fresh, authentic new musical wave coming out of the alternative music scene. The Amsterdams’ gigs are a burst of energy with their stage dynamics, with the band members constantly switching instruments. Having played in an extensive number of gigs all over Romania and Europe, they are ready to bring their optimism and energy to the World Fest Stage in January.",
+            "photoUrl": "http://erp.saarang.org/media/events/The_Amsterdams.jpg",
+            "color": "#97AD56",
+            "startTimestamp": "2015-01-08T10:30:00Z",
+            "hashtag": "The Amsterdams",
+            "isLivestream": false,
+            "id": "_worldfest_theamsterdams__",
+            "speakers": [],
+            "room": "sacb",
+            "title": "The Amsterdams ",
+            "url": "http://saarang.org/2015/main/events/worldfest/The Amsterdams",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-08T12:00:00Z",
+            "captionsUrl": "12.989288,80.237736"
+        },
+        {
+            "description": "The Indie pop band from Romania, which start¬ed off as the individual project of Andrei Hate¬gan in 2011, has gathered some real steam. With the experience of over a 100 concerts all over Romania they are ready to soothe the crowd at Saarang with their jumpy music and charm.",
+            "photoUrl": "http://erp.saarang.org/media/events/We_Singing_Colors_-_foto_by_uncle_jeb.jpg",
+            "color": "#0EC5E3",
+            "startTimestamp": "2015-01-09T08:00:00Z",
+            "hashtag": "We Singing Colors",
+            "isLivestream": false,
+            "id": "_worldfest_wesingingcolors__",
+            "speakers": [],
+            "room": "informals",
+            "title": "We Singing Colors ",
+            "url": "http://saarang.org/2015/main/events/worldfest/We Singing Colors",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-09T09:30:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "One of the most popular bands to come out of Indonesia in recent times, their music thrives under sadness, chaos and melancholia.  Comprising of five long-time friends who met under very different circumstances, they pride themselves on their trademark anthemic melancholic sound, crafting atmospheric songs out of sadness and joy which will surely find an echo in your emotions.",
+            "photoUrl": "http://erp.saarang.org/media/events/lightcraft_Band_Picture_1.JPG",
+            "color": "#CE9695",
+            "startTimestamp": "2015-01-11T08:30:00Z",
+            "hashtag": "Lightcraft",
+            "isLivestream": false,
+            "id": "_worldfest_lightcraft__",
+            "speakers": [],
+            "room": "informals",
+            "title": "Lightcraft ",
+            "url": "http://saarang.org/2015/main/events/worldfest/Lightcraft",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-11T10:00:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "It starts off with a few kicks of the football and transforms into show that captures one's imagination. Over the past decade Pawel Skora has mastered, furthered and rewritten every trick in the book. Here freestyle football and music converge to enchant all your senses. It's a show which took Poland by storm and is now fascinating the rest of the world.",
+            "photoUrl": "http://erp.saarang.org/media/events/PawelSkora2.jpg",
+            "color": "#40AA18",
+            "startTimestamp": "2015-01-09T10:30:00Z",
+            "hashtag": "Pawel Skora",
+            "isLivestream": false,
+            "id": "_worldfest_pawelskora_Kicks of fury - II_",
+            "speakers": [],
+            "room": "kvgrounds",
+            "title": "Pawel Skora Kicks of fury - II",
+            "url": "http://saarang.org/2015/main/events/worldfest/Pawel Skora",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-09T11:30:00Z",
+            "captionsUrl": "12.99237,80.233181"
+        },
+        {
+            "description": "It starts off with a few kicks of the football and transforms into show that captures one's imagination. Over the past decade Pawel Skora has mastered, furthered and rewritten every trick in the book. Here freestyle football and music converge to enchant all your senses. It's a show which took Poland by storm and is now fascinating the rest of the world.",
+            "photoUrl": "http://erp.saarang.org/media/events/PawelSkora2.jpg",
+            "color": "#D388A1",
+            "startTimestamp": "2015-01-11T10:30:00Z",
+            "hashtag": "Pawel Skora",
+            "isLivestream": false,
+            "id": "_worldfest_pawelskora_Free Style Football Workshop_",
+            "speakers": [],
+            "room": "informals",
+            "title": "Pawel Skora Free Style Football Workshop",
+            "url": "http://saarang.org/2015/main/events/worldfest/Pawel Skora",
+            "tags": [
+                "TAG_WORLDFEST"
+            ],
+            "mainTag": "TAG_WORLDFEST",
+            "endTimestamp": "2015-01-11T11:30:00Z",
+            "captionsUrl": "12.9896597,80.233285"
+        },
+        {
+            "description": "<p>Are you part of an A Capella group that would like to try out some indigenous music? Are you an already established Light Music A Capella group that is looking for a platform to showcase your talents? LM Saarang has its one of a kind, nouvelle vague event, Raagapella, tailored to fit just your needs. Come over, harmonise, clap and snap, and enjoy yourself. There is also a large audience looking forward to your mesmerising harmonies. &nbsp;</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/raagapella.png",
+            "color": "#2F81F8",
+            "startTimestamp": "2015-01-08T04:00:00Z",
+            "hashtag": "Raagapella",
+            "isLivestream": false,
+            "id": "_lightmusic_raagapella__",
+            "speakers": [],
+            "room": "clt",
+            "title": "Raagapella ",
+            "url": "http://saarang.org/2015/main/events/lightmusic/Raagapella",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_LIGHTMUSIC"
+            ],
+            "mainTag": "TOPIC_LIGHTMUSIC",
+            "endTimestamp": "2015-01-08T09:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        },
+        {
+            "description": "<blockquote>  <p>I like the ephemeral thing about theatre, every performance is like a ghost - it&#39;s there and&nbsp;then it&#39;s gone.</p>    <p>-Maggie Smith</p>  </blockquote>    <p>The Battle Royale of Theatre is back! Our flagship event, this promises to be great fun for both audience and performers alike. &nbsp;Come, be a part of the magic that is Saarang Dramatics 2016!</p>  ",
+            "photoUrl": "http://erp.saarang.org/media/events/Saarang_Drams.png",
+            "color": "#EAD1CA",
+            "startTimestamp": "2015-01-09T08:00:00Z",
+            "hashtag": "Dramatics",
+            "isLivestream": false,
+            "id": "_thespian_dramatics_Prelims_",
+            "speakers": [],
+            "room": "clt",
+            "title": "Dramatics Prelims",
+            "url": "http://saarang.org/2015/main/events/thespian/Dramatics",
+            "tags": [
+                "TAG_EVENTS",
+                "TOPIC_THESPIAN"
+            ],
+            "mainTag": "TOPIC_THESPIAN",
+            "endTimestamp": "2015-01-08T12:30:00Z",
+            "captionsUrl": "12.989693,80.232108"
+        }
+    ],
+    "experts": [],
+    "rooms": [
+        {
+            "id": "sacb",
+            "name": "SAC Bowl"
+        },
+        {
+            "id": "sacme",
+            "name": "SAC Middle Earth"
+        },
+        {
+            "id": "icsrh1",
+            "name": "ICSR Hall 1"
+        },
+        {
+            "id": "icsrh3",
+            "name": "ICSR Hall 3"
+        },
+        {
+            "id": "icsrma",
+            "name": "ICSR Main Auditorium"
+        },
+        {
+            "id": "kvgrounds",
+            "name": "KV Grounds"
+        },
+        {
+            "id": "clt",
+            "name": "CLT - Central Lecture Theatre"
+        },
+        {
+            "id": "phlt",
+            "name": "PhLT - Physics Lecture Theatre"
+        },
+        {
+            "id": "doms101",
+            "name": "DoMS 101 - Dept. of Management Studies"
+        },
+        {
+            "id": "informals",
+            "name": "Informals Zone"
+        },
+        {
+            "id": "music",
+            "name": "Music Park"
+        },
+        {
+            "id": "finearts",
+            "name": "Fine Arts Hut"
+        },
+        {
+            "id": "midnight",
+            "name": "Midnight Masters"
+        },
+        {
+            "id": "adrenaline",
+            "name": "Stunt Zone"
+        },
+        {
+            "id": "crc101",
+            "name": "CRC 101 - Class Room Complex"
+        },
+        {
+            "id": "crc102",
+            "name": "CRC 102 - Class Room Complex"
+        },
+        {
+            "id": "crc103",
+            "name": "CRC 103 - Class Room Complex"
+        },
+        {
+            "id": "maingate",
+            "name": "Main Gate"
+        },
+        {
+            "id": "taramani",
+            "name": "Taramani Gate"
+        },
+        {
+            "id": "velachery",
+            "name": "Velachery Gate"
+        },
+        {
+            "id": "iitm",
+            "name": "IIT Madras"
+        },
+        {
+            "id": "gc",
+            "name": "GC - Gajendra Circle"
+        },
+        {
+            "id": "oat",
+            "name": "OAT"
+        },
+        {
+            "id": "himalaya",
+            "name": "Himalaya Mess"
+        },
+        {
+            "id": "kickstart",
+            "name": "Kickstart Cafe"
+        },
+        {
+            "id": "sbi",
+            "name": "SBI ATM"
+        },
+        {
+            "id": "gurunath",
+            "name": "Gurunath Stores"
+        },
+        {
+            "id": "campuscafe",
+            "name": "Campus Cafe"
+        }
+    ],
+    "tags": [
+        {
+            "category": "THEME",
+            "name": "Events",
+            "abstract": "",
+            "tag": "TAG_EVENTS",
+            "original_id": "id-events",
+            "order_in_category": 1
+        },
+        {
+            "category": "THEME",
+            "name": "Lectures",
+            "abstract": "",
+            "tag": "TAG_LECTURES",
+            "original_id": "id-lectures",
+            "order_in_category": 2
+        },
+        {
+            "category": "THEME",
+            "name": "Worldfest",
+            "abstract": "",
+            "tag": "TAG_WORLDFEST",
+            "original_id": "id-worldfest",
+            "order_in_category": 3
+        },
+        {
+            "category": "THEME",
+            "name": "Proshows",
+            "abstract": "",
+            "tag": "TAG_PROSHOWS",
+            "original_id": "id-proshows",
+            "order_in_category": 4
+        },
+        {
+            "category": "TOPIC",
+            "name": "Word Games",
+            "color": "#82EF9B",
+            "abstract": "",
+            "tag": "TOPIC_WORDGAMES",
+            "original_id": "id-wordgames",
+            "order_in_category": 9
+        },
+        {
+            "category": "TOPIC",
+            "name": "Classical Arts",
+            "color": "#1C2E6E",
+            "abstract": "",
+            "tag": "TOPIC_CLASSICALARTS",
+            "original_id": "id-classicalarts",
+            "order_in_category": 14
+        },
+        {
+            "category": "TOPIC",
+            "name": "LecDems",
+            "color": "#301EE8",
+            "abstract": "",
+            "tag": "TOPIC_LECDEMS",
+            "original_id": "id-lecdems",
+            "order_in_category": 13
+        },
+        {
+            "category": "TOPIC",
+            "name": "Western Music",
+            "color": "#C6108B",
+            "abstract": "",
+            "tag": "TOPIC_WESTERNMUSIC",
+            "original_id": "id-westernmusic",
+            "order_in_category": 2
+        },
+        {
+            "category": "TOPIC",
+            "name": "Light Music",
+            "color": "#3C9B6D",
+            "abstract": "",
+            "tag": "TOPIC_LIGHTMUSIC",
+            "original_id": "id-lightmusic",
+            "order_in_category": 3
+        },
+        {
+            "category": "TOPIC",
+            "name": "Thespian",
+            "color": "#05BA6A",
+            "abstract": "",
+            "tag": "TOPIC_THESPIAN",
+            "original_id": "id-thespian",
+            "order_in_category": 8
+        },
+        {
+            "category": "TOPIC",
+            "name": "Writing",
+            "color": "#11E90B",
+            "abstract": "",
+            "tag": "TOPIC_WRITING",
+            "original_id": "id-writing",
+            "order_in_category": 10
+        },
+        {
+            "category": "TOPIC",
+            "name": "Speaking",
+            "color": "#B8A9F1",
+            "abstract": "",
+            "tag": "TOPIC_SPEAKING",
+            "original_id": "id-speaking",
+            "order_in_category": 7
+        },
+        {
+            "category": "TOPIC",
+            "name": "Choreo",
+            "color": "#0910D8",
+            "abstract": "",
+            "tag": "TOPIC_CHOREO",
+            "original_id": "id-choreo",
+            "order_in_category": 1
+        },
+        {
+            "category": "TOPIC",
+            "name": "Design & Media",
+            "color": "#13BFAB",
+            "abstract": "",
+            "tag": "TOPIC_DESIGNMEDIA",
+            "original_id": "id-designmedia",
+            "order_in_category": 11
+        },
+        {
+            "category": "TOPIC",
+            "name": "Informals",
+            "color": "#1A8BD4",
+            "abstract": "",
+            "tag": "TOPIC_INFORMALS",
+            "original_id": "id-informals",
+            "order_in_category": 4
+        },
+        {
+            "category": "TOPIC",
+            "name": "Quizzing",
+            "color": "#3B3E4D",
+            "abstract": "",
+            "tag": "TOPIC_QUIZZING",
+            "original_id": "id-quizzing",
+            "order_in_category": 6
+        },
+        {
+            "category": "TOPIC",
+            "name": "Fine Arts",
+            "color": "#89F696",
+            "abstract": "",
+            "tag": "TOPIC_FINEARTS",
+            "original_id": "id-finearts",
+            "order_in_category": 12
+        },
+        {
+            "category": "TOPIC",
+            "name": "Lifestyle",
+            "color": "#51F48F",
+            "abstract": "",
+            "tag": "TOPIC_LIFESTYLE",
+            "original_id": "id-lifestyle",
+            "order_in_category": 5
+        }
+    ]
+}

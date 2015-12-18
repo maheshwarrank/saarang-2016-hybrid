@@ -73,11 +73,12 @@ angular.module('saarang2016App.controllers', [])
 
   var eventsReq = {
     method: 'GET',
-    url: '../apis/events.json'
+    url: 'apis/events.json'
   };
 
 
   $http(eventsReq).then(function(response){
+
 
     $scope.events = response.data.sessions;
     loadDetails.addEventSchedule($scope.events);
