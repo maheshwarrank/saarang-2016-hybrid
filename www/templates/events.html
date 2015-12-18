@@ -3,11 +3,17 @@
   <div class="column">
       <div>
           <div>
-              <div class="list card">
+          
+              <div class="list card" ng-click=openEvent(saarang)>
                 <div class="item item-image" id= "imgcontainer">
+                <a href="#/app/eventdetails" >
                   <img src="{{saarang.photoUrl}}" id="myimage">
+                  
+                  <div id="layer">
                   <p id="eventname">{{saarang.title}}</p>
-                  <p id="eventtime">{{saarang.startTimestamp}}</p>                  
+                  <p id="eventtime">{{saarang.startTimestamp}}</p>
+                  </div>
+                </a>
                 </div>
               </div>
           </div>                   
@@ -16,22 +22,30 @@
   <div class="row">
       <div class="col col-50">
           <div>
-              <div class="list card" ng-repeat="event in events1" id="card">
+              <div class="list card" ng-repeat="event in events1" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
+                <a href="#/app/eventdetails" >
                   <img src="{{event.photoUrl}}" id="myimage">
+                  <div id="layer">
                   <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp}}</p>                  
+                  <p id="eventtime">{{event.startTimestamp}}</p>    
+                  </div>
+                  </a>
                 </div>
               </div>
           </div>                   
       </div>
       <div class="col col-50" >
           <div>
-              <div class="list card" ng-repeat="event in events2" id="card">
+              <div class="list card" ng-repeat="event in events2" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
+                <a href="#/app/eventdetails" >
                   <img src="{{event.photoUrl}}" id="myimage">
+                  <div id="layer">
                   <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp}}</p>                  
+                  <p id="eventtime">{{event.startTimestamp}}</p>
+                  </div>
+                  </a>                  
                 </div>
               </div>
           </div>                   

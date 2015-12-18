@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers'])
+angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanitize'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -55,18 +55,18 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/sponsors.html',
-          // controller: 'SponsorsCtrl'
+          controller: 'SponsorsCtrl'
         }
 
       }
     })
 
-  .state('app.single', {
-    url: '/playlists/:playlistId',
+  .state('app.eventdetails', {
+    url: '/eventdetails',
     views: {
       'menuContent': {
-        templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
+        templateUrl: 'templates/eventdetails.html',
+        controller: 'EventDetailsCtrl'
       }
     }
   });

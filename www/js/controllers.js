@@ -41,15 +41,46 @@ angular.module('saarang2016App.controllers', [])
   };
 })
 
-.controller('EventsCtrl',function($scope,$http){
+.service('loadDetails',function(){
+  
+  var event = {name:'event not defined'};
+  var addEvent = function(newEvent) {
+    event = newEvent;
+  };
+  var getEvent = function(){
+    return event;
+  };
+  
+  var events = {name:'events not defined'};
+
+  var addEventSchedule = function(newEvents) {
+    events = newEvents;
+  };
+
+  var getEventSchedule = function(){
+    return events;
+  };
+  
+  return {
+    addEvent: addEvent,
+    getEvent: getEvent,
+    addEventSchedule: addEventSchedule,
+    getEventSchedule: getEventSchedule,
+  };
+
+})
+.controller('EventsCtrl',function($scope,$http,loadDetails){
 
   var eventsReq = {
     method: 'GET',
     url: '../apis/events.json'
   };
+
+
   $http(eventsReq).then(function(response){
-    console.log(response);
+
     $scope.events = response.data.sessions;
+    loadDetails.addEventSchedule($scope.events);
     $scope.saarang = $scope.events.shift();
     console.log($scope.saarang);
     console.log($scope.events);
@@ -57,9 +88,19 @@ angular.module('saarang2016App.controllers', [])
     console.log($scope.events1);
     $scope.events2 = $scope.events.slice(50,99);
     console.log($scope.events2);
-  })
+  });
+
+  $scope.openEvent = function(event){
+      loadDetails.addEvent(event);
+    };
 
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+.controller('EventDetailsCtrl',function($scope,$http,loadDetails){
+
+  $scope.event = loadDetails.getEvent();
+
+})
+
+.controller('SponsorsCtrl', function($scope,loadDetails){
+})
