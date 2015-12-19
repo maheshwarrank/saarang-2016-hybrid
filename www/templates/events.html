@@ -11,7 +11,7 @@
                   
                   <div id="layer">
                   <p id="eventname">{{saarang.title}}</p>
-                  <p id="eventtime">{{saarang.startTimestamp}}</p>
+                  <p id="eventtime">{{saarang.startTimestamp | date:'medium'}}</p>
                   </div>
                 </a>
                 </div>
@@ -25,10 +25,10 @@
               <div class="list card" ng-repeat="event in events1" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
                 <a href="#/app/eventdetails" >
-                  <img src="{{event.photoUrl}}" id="myimage">
+                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='../img/logo.jpg'">
                   <div id="layer">
                   <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp}}</p>    
+                  <p id="eventtime">{{event.startTimestamp | date:'medium'}}</p>    
                   </div>
                   </a>
                 </div>
@@ -40,10 +40,10 @@
               <div class="list card" ng-repeat="event in events2" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
                 <a href="#/app/eventdetails" >
-                  <img src="{{event.photoUrl}}" id="myimage">
+                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='../img/logo.jpg'">
                   <div id="layer">
                   <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp}}</p>
+                  <p id="eventtime">{{event.startTimestamp | date:'medium'}}</p>
                   </div>
                   </a>                  
                 </div>
