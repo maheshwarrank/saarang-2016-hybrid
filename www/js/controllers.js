@@ -1,3 +1,5 @@
+var api = "http://erp.saarang.org/static/json/";
+
 angular.module('saarang2016App.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
@@ -71,14 +73,22 @@ angular.module('saarang2016App.controllers', [])
 })
 .controller('EventsCtrl',function($scope,$http,loadDetails){
 
-  var eventsReq = {
+  var versionReq = {
     method: 'GET',
-    url: 'apis/events.json'
+    url: 'apis/data_file.json'
   };
 
+  $http(versionReq).then(function(response){
+    $scope.ver = response.data.data_files;
+    console.log($scope.ver);
+
+    var eventsReq = {
+    method: 'GET',
+    url: api + $scope.ver
+  };
+    console.log(eventsReq.url);
 
   $http(eventsReq).then(function(response){
-
 
     $scope.events = response.data.sessions;
     loadDetails.addEventSchedule($scope.events);
@@ -92,11 +102,43 @@ angular.module('saarang2016App.controllers', [])
     console.log($scope.events1);
     $scope.events2 = $scope.events.slice(50,99);
     console.log($scope.events2);
+
   });
 
   $scope.openEvent = function(event){
       loadDetails.addEvent(event);
     };
+
+  });
+
+
+
+  // var eventsReq = {
+  //   method: 'GET',
+  //   url: 'apis/events.json'
+  // };
+
+
+  // $http(eventsReq).then(function(response){
+
+  //   $scope.events = response.data.sessions;
+  //   loadDetails.addEventSchedule($scope.events);
+  //   $scope.saarang = $scope.events.shift();
+  //   console.log($scope.saarang);
+  //   console.log($scope.events);
+  //   window.localStorage.setItem('events',angular.toJson( $scope.events));
+  //   var events = angular.fromJson(window.localStorage['events']);
+  //   console.log(events);
+  //   $scope.events1 = $scope.events.slice(0,50);
+  //   console.log($scope.events1);
+  //   $scope.events2 = $scope.events.slice(50,99);
+  //   console.log($scope.events2);
+
+  // });
+
+  // $scope.openEvent = function(event){
+  //     loadDetails.addEvent(event);
+  //   };
 
 })
 
