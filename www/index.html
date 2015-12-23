@@ -26,4 +26,18 @@
   <body ng-app="saarang2016App">
     <ion-nav-view></ion-nav-view>
   </body>
+  <script type="text/javascript">
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGrkr-EFO3bqqgO3lnKEd0G_ewrwY33OI&callback=initMap">
+    </script>
 </html>

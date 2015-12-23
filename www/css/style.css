@@ -2,7 +2,10 @@
 #myimage{
 	-webkit-filter: brightness(60%);
 	-moz-filter: brightness(60%);
+  height: 193px;
 }
+
+#map { height: 100%; }
 
 /*#layer{
 

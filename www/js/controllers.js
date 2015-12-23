@@ -75,7 +75,7 @@ angular.module('saarang2016App.controllers', [])
 
   var versionReq = {
     method: 'GET',
-    url: 'apis/data_file.json'
+    url: 'http://erp.saarang.org/static/json/manifest.json'
   };
 
   $http(versionReq).then(function(response){
@@ -149,4 +149,7 @@ angular.module('saarang2016App.controllers', [])
 })
 
 .controller('SponsorsCtrl', function($scope,loadDetails){
+})
+
+.controller('MapCtrl', function($scope,loadDetails){
 })

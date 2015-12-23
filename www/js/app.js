@@ -69,7 +69,18 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanit
         controller: 'EventDetailsCtrl'
       }
     }
-  });
+  })
+
+    .state('app.map', {
+      url: '/map',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/map.html',
+          controller: 'MapCtrl'
+        }
+
+      }
+    });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/events');
 });
