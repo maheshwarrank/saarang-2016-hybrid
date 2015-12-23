@@ -5,7 +5,9 @@
   height: 193px;
 }
 
-#map { height: 100%; }
+#map{ 
+  overflow-x: scroll; 
+}
 
 /*#layer{
 

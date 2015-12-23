@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanitize'])
+angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanitize'/*,'saarang2016App.directives'*/])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
