@@ -11,7 +11,8 @@
                   
                   <div id="layer">
                   <p id="eventname">{{saarang.title}}</p>
-                  <p id="eventtime">{{saarang.startTimestamp | date:'medium'}}</p>
+                  <p id="eventdate">{{saarang.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
+                  <p id="eventtime">{{saarang.startTimestamp | date:'hh:mm a' : UTC}}</p>
                   </div>
                 </a>
                 </div>
@@ -25,11 +26,12 @@
               <div class="list card" ng-repeat="event in events1" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
                 <a href="#/app/eventdetails" >
-                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='../img/logo.jpg'">
+                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='img/logo.jpg'">
                   <div id="layer">
-                  <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp | date:'medium'}}</p>    
-                  </div>
+                  <p id="eventname">{{event.title | limitTo: 20}} <span ng-show = "event.title.length > 20">...</span></p>
+                  <p id="eventdate">{{event.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
+                  <p id="eventtime">{{event.startTimestamp | date:'hh:mm a' : UTC}}</p>
+                   </div>
                   </a>
                 </div>
               </div>
@@ -40,10 +42,11 @@
               <div class="list card" ng-repeat="event in events2" id="card" ng-click=openEvent(event)>
                 <div class="item item-image" id= "imgcontainer">
                 <a href="#/app/eventdetails" >
-                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='../img/logo.jpg'">
+                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='img/logo.jpg'">
                   <div id="layer">
-                  <p id="eventname">{{event.title}}</p>
-                  <p id="eventtime">{{event.startTimestamp | date:'medium'}}</p>
+                  <p id="eventname">{{event.title | limitTo: 25}} <span ng-show = "event.title.length > 25">...</span></p>
+                  <p id="eventdate">{{saarang.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
+                  <p id="eventtime">{{saarang.startTimestamp | date:'hh:mm a' : UTC}}</p>
                   </div>
                   </a>                  
                 </div>

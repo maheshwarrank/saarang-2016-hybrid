@@ -5,10 +5,10 @@
   height: 193px;
 }
 
-#map{ 
+/*#map{ 
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch; 
-}
+}*/
 
 /*#layer{
 
@@ -42,13 +42,21 @@
   	top: 120px;
 
 }
-#eventtime{
+#eventdate{
 	z-index: 100;
   	position: absolute;
   	color: white;
   	font-size: 12px;
   	left: 15px;
   	top: 145px;
+}
+#eventtime{
+  z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    left: 15px;
+    top: 165px;
 }
 
 #sponstype{ 
