@@ -145,6 +145,23 @@ angular.module('saarang2016App.controllers', [])
 .controller('EventDetailsCtrl',function($scope,$http,loadDetails){
 
   $scope.event = loadDetails.getEvent();
+  console.log($scope.event);
+
+  var roomsReq = {
+    method: 'GET',
+    url: 'apis/events.json'
+  };
+
+  $http(roomsReq).then(function(response){
+    $scope.rooms = response.data.rooms;
+    console.log($scope.rooms);
+    for (var i = $scope.rooms.length - 1; i >= 0; i--) {
+      if ($scope.event.room == $scope.rooms[i].id) {
+        $scope.event.room = $scope.rooms[i].name;
+        return 1;
+      };
+    };
+  });
 
 })
 
