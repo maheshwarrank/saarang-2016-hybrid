@@ -42,14 +42,14 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanit
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html'
-        }
-      }
-    })
+  // .state('app.browse', {
+  //     url: '/browse',
+  //     views: {
+  //       'menuContent': {
+  //         templateUrl: 'templates/browse.html'
+  //       }
+  //     }
+  //   })
     .state('app.sponsors', {
       url: '/sponsors',
       views: {

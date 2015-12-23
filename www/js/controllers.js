@@ -98,9 +98,9 @@ angular.module('saarang2016App.controllers', [])
     window.localStorage.setItem('events',angular.toJson( $scope.events));
     var events = angular.fromJson(window.localStorage['events']);
     console.log(events);
-    $scope.events1 = events.slice(0,50);
+    $scope.events1 = events.slice(0,49);
     console.log($scope.events1);
-    $scope.events2 = events.slice(50,99);
+    $scope.events2 = events.slice(49,99);
     console.log($scope.events2);
 
   });
