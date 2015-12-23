@@ -1,22 +1,12 @@
 <ion-view view-title="Sponsors">
   <ion-content>
-   <div class="list card">
+   <div class="list card" ng-repeat = "sponsor in sponsors">
   <div class="item item-image">
-    <img src="img/sponsors.jpg" id="sponsimage">
+  <a href="{{sponsor.sponsor_link}}">
+      <img src="{{sponsor.logo}}" id="sponsimage">
+  </a>
   </div>
-  <div id="sponstype">Main Sponsors</div>
-</div>
-	<div class="list card">
-  <div class="item item-image">
-    <img src="img/sponsors.jpg" id="sponsimage">
-  </div>
-  <div id="sponstype">Main Sponsors</div>
-</div>
-	<div class="list card">
-  <div class="item item-image">
-    <img src="img/sponsors.jpg" id="sponsimage">
-  </div>
-  <div id="sponstype">Main Sponsors</div>
+  <div id="sponstype">{{sponsor.title}}</div>
 </div>
   </ion-content>
 </ion-view>
