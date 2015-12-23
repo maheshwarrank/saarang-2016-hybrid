@@ -44,7 +44,7 @@
                 <a href="#/app/eventdetails" >
                   <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='img/logo.jpg'">
                   <div id="layer">
-                  <p id="eventname">{{event.title | limitTo: 25}} <span ng-show = "event.title.length > 25">...</span></p>
+                  <p id="eventname">{{event.title | limitTo: 20}} <span ng-show = "event.title.length > 20">...</span></p>
                   <p id="eventdate">{{saarang.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
                   <p id="eventtime">{{saarang.startTimestamp | date:'hh:mm a' : UTC}}</p>
                   </div>
