@@ -183,12 +183,18 @@ angular.module('saarang2016App.controllers', [])
         return 0;
     });
     console.log($scope.spons);
+    for (var i = 0; i < $scope.spons.length; i++) {
+        console.log($scope.spons[i].logo);
+        $scope.spons[i].logo =  "http://erp.saarang.org/media/" + $scope.spons[i].logo;
+        console.log($scope.spons[i].logo);
+    };
     window.localStorage.setItem('sponsors',angular.toJson($scope.spons));
     var sponsors = angular.fromJson(window.localStorage['sponsors']);
     console.log(sponsors);
     $scope.sponsors = sponsors;
     console.log($scope.sponsors);
   });
+    
 })
 
 .controller('MapCtrl', function($scope, $ionicLoading) {
