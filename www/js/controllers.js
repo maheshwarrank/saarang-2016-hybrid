@@ -168,6 +168,234 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
 
 })
 
+.controller('ContactCtrl',function($scope,$ionicLoading) {
+  
+  $scope.contacts2016 = [
+            {
+            "name": "Secretary, Cultural Affairs (Arts)",
+            "members": [
+              {
+                "name": "Aditya U",
+                "email": "adi@saarang.org",
+                "phone": "+919962971662",
+                "img"  :"img/adi.png"
+              }
+            ]
+            },
+            {
+            "name": "Secretary, Cultural Affairs (Literary)",
+            "members": [
+              {
+                "name": "Krishna Koushik",
+                "email": "krishnakoushik@saarang.org",
+                "phone": "+917418789160",
+                "img"  :"img/krishnakoushik.png"
+              }
+            ]
+            },
+            {
+            "name": "Sponsorship & PR",
+            "members": [
+              {
+                "name": "Anish Rathi",
+                "email": "anish.rathi@saarang.org",
+                "phone": "+919884685016",
+                "img"  :"img/anish.png"
+              },
+              {
+                "name": "Anirvan Bordoloi",
+                "email": "anirvan.bordoloi@saarang.org",
+                "phone": "+919962609617",
+                "img"  :"img/anirvan.png"
+              },
+              {
+                "name": "Ashish Jha",
+                "email": "ashish.jha@saarang.org",
+                "phone": "+918695851252",
+                "img"  :"img/aashish.png"
+              }
+            ]
+            },
+            {
+            "name": "Events",
+            "members": [
+              {
+                "name": "Rushabh Menon",
+                "email": "menon@saarang.org",
+                "phone": "+919791057815",
+                "img"  :"img/rushabh.png"
+              },
+              {
+                "name": "Srijith R",
+                "email": "srijith@saarang.org",
+                "phone": "+919176467000",
+                "img"  :"img/srijith.png"
+              }
+            ]
+            },
+            {
+            "name": "Professional Shows",
+            "members": [
+              {
+                "name": "Ashwin S Pothen",
+                "email": "ashwin@saarang.org",
+                "phone": "+919884300360",
+                "img"  :"img/pothen.png"
+              },
+              {
+                "name": "Harshith Guntha",
+                "email": "harshith.guntha@saarang.org",
+                "phone": "+918056218712",
+                "img"  :"img/harshith.png"
+              }
+            ]
+            },
+            {
+            "name": "Marketing & Sales",
+            "members": [
+              {
+                "name": "Sai Krishna Koushik",
+                "email": "koushik.esk@saarang.org",
+                "phone": "+918124343670",
+                "img"  :"img/saikrishnakoushik.png"
+              },
+              {
+                "name": "Sai Akhil Matha",
+                "email": "akhil@saarang.org",
+                "phone": "+918056128354",
+                "img"  :"img/akhil.png"
+              }
+            ]
+            },
+            {
+            "name": "Publicity",
+            "members": [
+              {
+                "name": "Rinkesh Virani",
+                "email": "rinkeshvirani@saarang.org",
+                "phone": "+919884299313",
+                "img"  :"img/rinkesh.png"
+              }
+            ]
+            },
+            {
+            "name": "Hospitality",
+            "members": [
+              {
+                "name": "Sreeharsha Gunda",
+                "email": "sreeharsha@saarang.org",
+                "phone": "+919962663576",
+                "img"  :"img/sreeharsha.png"
+              }
+            ]
+            },
+            {
+            "name": "Web & Mobile Operations",
+            "members": [
+              {
+                "name": "Deepak Padamata",
+                "email": "deepak@saarang.org",
+                "phone": "+919789107938",
+                "img"  :"img/deepak.png"
+              },
+              {
+                "name": "Aqel Ahammed",
+                "email": "aqel@saarang.org",
+                "phone": "+919633229144",
+                "img"  :"img/aqel.png"
+              }
+            ]
+            },
+            {
+              "name":"Design and Media",
+              "members":[
+              {
+                "name":"Manavala Thambi",
+                "email":"ktmanav@saarang.org",
+                "phone" :"+919962605305",
+                "img"  :"img/thambi.png"
+              },
+              {
+                "name":"Rathees P",
+                "email":"ratiz@saarang.org",
+                "phone":"+919789575877",
+                "img"  :"img/rathees.png"
+              },
+              {
+                "name": "Rahul K",
+                "email": "rahul@saarang.org",
+                "phone": "+919884299695",
+                "img"  :"img/rahul.png"
+              }
+              ]
+            },
+            {
+              "name":"Finance",
+               "members":[
+               {
+               "name":"Favas M P",
+               "email":"favas@saarang.org", 
+               "phone":"+917418304010",
+               "img"  :"img/favas.png"
+               },
+               {
+                "name":"Srinivas Ramanand",
+                "email":"ramanand@saarang.org", 
+                "phone":"+918807488931",
+                "img"  :"img/ramanand.png"
+               }
+             ]  
+            },
+            {
+              "name":"Facilities",
+              "members" :[
+              {
+                "name":"Hari M",
+                "email":"hari@saarang.org", 
+                "phone":"+917708948827",
+                "img"  :"img/hari.png"
+              },
+              {
+                "name":"Amar",
+                "email":"amar@saarang.org", 
+                "phone":"+919952912020",
+                "img"  :"img/amar.png"
+              }
+              ]
+            },
+            {
+              "name":"Safety & Security",
+              "members":[
+              {
+                "name":"Bharadwaj M",
+                "email":"bharadwaj@saarang.org",
+                "phone": "+918056102507",
+                "img"  :"img/bharadwaj.png"  
+              },
+              {
+                "name":"Ruth Babu Marpu",
+                "email":"ruth.marpu@saarang.org",
+                "phone": "+919043812280",
+                "img"  :"img/ruthbabu.png"
+              }
+              ]
+            },
+            {
+              "name":"QMS",
+              "members":[
+              {
+                "name":"Vidyadhar Mudium",
+                "email":"vidyadhar@saarang.org",
+                "phone":"+919952044531",
+                "img"  :"img/vidyadhar.png"
+              }
+              ]
+            }];
+
+
+})
+
+
 .controller('SponsorsCtrl', function($scope,$http){
   $scope.sponsors = angular.fromJson(window.localStorage['sponsors']);
   var sponsReq = {
@@ -200,6 +428,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
   });
     
 })
+
 
 .controller('MapCtrl', function($scope, $ionicLoading) {
 //   $scope.mapCreated = function(map) {

@@ -84,6 +84,16 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanit
     }
   })
 
+  .state('app.contact', {
+    url: '/contact',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/contact.html',
+        controller: 'ContactCtrl'
+      }
+    }
+  })
+
     .state('app.map', {
       url: '/map',
       views: {

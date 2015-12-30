@@ -1,0 +1,19 @@
+<ion-view view-title="Contact">
+  <ion-content>
+  	<div class="col">
+  		<div class="card" ng-repeat="contact in contacts2016" >
+  			
+  			<div id="coretype">{{contact.name}}</div>
+
+  					<div ng-repeat="member in contact.members" id="coreimages" class="col">
+  						<img src="{{member.img}}" id="coreimage">
+  						<p>{{member.name}}</p>
+  						<p>{{member.phone}}</p>
+  						<p>{{member.email}}</p>
+  					</div>
+  			
+  			
+		</div>
+	</div>
+  </ion-content>
+</ion-view>
