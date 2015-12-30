@@ -9,11 +9,13 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanit
 
 .run(function($ImageCacheFactory){
     var events = angular.fromJson(window.localStorage['events']);
-
-      $ImageCacheFactory.Cache(events.map(function(a) {return a.photoUrl;}));
-  $ImageCacheFactory.Cache().then(function(){
-    console.log("done preloading!");
-  });
+    var images = events.map(function(a) {return a.photoUrl;});
+    var sponsors = angular.fromJson(window.localStorage['sponsors']);
+    images = images.concat(sponsors.map(function(a) {return a.logo;}));
+    $ImageCacheFactory.Cache(images);
+    $ImageCacheFactory.Cache().then(function(){
+      console.log("done preloading!");
+    });
 })
 
 .run(function($ionicPlatform) {
