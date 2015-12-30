@@ -1,6 +1,6 @@
 var api = "http://erp.saarang.org/static/json/";
 
-angular.module('saarang2016App.controllers', [])
+angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -71,7 +71,10 @@ angular.module('saarang2016App.controllers', [])
   };
 
 })
-.controller('EventsCtrl',function($scope,$http,loadDetails){
+.controller('EventsCtrl',function($scope,$http,loadDetails, $ImageCacheFactory){
+
+  loadEvents();
+
 
   var versionReq = {
     method: 'GET',
@@ -96,50 +99,49 @@ angular.module('saarang2016App.controllers', [])
     console.log($scope.saarang);
     console.log($scope.events);
     window.localStorage.setItem('events',angular.toJson( $scope.events));
-    var events = angular.fromJson(window.localStorage['events']);
-    console.log(events);
-    $scope.events1 = events.slice(0,49);
-    console.log($scope.events1);
-    $scope.events2 = events.slice(49,99);
-    console.log($scope.events2);
+    $scope.loadEvents();
+
+  });
+
 
   });
 
   $scope.openEvent = function(event){
-      loadDetails.addEvent(event);
+    loadDetails.addEvent(event);
+  };
+
+  $scope.loadEvents = function(){
+    loadEvents();
+  }
+
+  function loadEvents() {
+    var events = angular.fromJson(window.localStorage['events']);
+    if (events == null ){
+      loadFromJSON();
+    } else {
+      $scope.events1 = events.slice(0,49);
+      $scope.events2 = events.slice(49,99);
+    }
+  }
+  
+  function loadFromJSON(){
+    var eventsReq = {
+      method: 'GET',
+      url: 'apis/events.json'
     };
+    $http(eventsReq).then(function(response){
+      $scope.events = response.data.sessions;
+      loadDetails.addEventSchedule($scope.events);
+      $scope.saarang = $scope.events.shift();
+      console.log($scope.saarang);
+      console.log($scope.events);
+      window.localStorage.setItem('events',angular.toJson( $scope.events));
+      var events = angular.fromJson(window.localStorage['events']);
+      $scope.loadEvents();
+    });
+  }
 
-  });
-
-
-
-  // var eventsReq = {
-  //   method: 'GET',
-  //   url: 'apis/events.json'
-  // };
-
-
-  // $http(eventsReq).then(function(response){
-
-  //   $scope.events = response.data.sessions;
-  //   loadDetails.addEventSchedule($scope.events);
-  //   $scope.saarang = $scope.events.shift();
-  //   console.log($scope.saarang);
-  //   console.log($scope.events);
-  //   window.localStorage.setItem('events',angular.toJson( $scope.events));
-  //   var events = angular.fromJson(window.localStorage['events']);
-  //   console.log(events);
-  //   $scope.events1 = $scope.events.slice(0,50);
-  //   console.log($scope.events1);
-  //   $scope.events2 = $scope.events.slice(50,99);
-  //   console.log($scope.events2);
-
-  // });
-
-  // $scope.openEvent = function(event){
-  //     loadDetails.addEvent(event);
-  //   };
-
+ 
 })
 
 .controller('EventDetailsCtrl',function($scope,$http,loadDetails){
@@ -166,6 +168,7 @@ angular.module('saarang2016App.controllers', [])
 })
 
 .controller('SponsorsCtrl', function($scope,$http){
+  $scope.sponsors = angular.fromJson(window.localStorage['sponsors']);
   var sponsReq = {
     method : 'GET',
     url: 'http://erp.saarang.org/api/mobile/display_spons/'

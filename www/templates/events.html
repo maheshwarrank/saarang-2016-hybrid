@@ -1,6 +1,6 @@
 <ion-view view-title="Events">
 <ion-content>
-  <div class="column">
+  <!-- <div class="column">
       <div>
           <div>
           
@@ -18,7 +18,7 @@
                 </div>
               </div>
           </div>                   
-      </div>
+      </div> -->
 
   <div class="row">
       <div class="col col-50">
@@ -45,8 +45,8 @@
                   <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='img/logo.jpg'">
                   <div id="layer">
                   <p id="eventname">{{event.title | limitTo: 20}} <span ng-show = "event.title.length > 20">...</span></p>
-                  <p id="eventdate">{{saarang.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
-                  <p id="eventtime">{{saarang.startTimestamp | date:'hh:mm a' : UTC}}</p>
+                  <p id="eventdate">{{event.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
+                  <p id="eventtime">{{event.startTimestamp | date:'hh:mm a' : UTC}}</p>
                   </div>
                   </a>                  
                 </div>

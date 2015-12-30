@@ -3,8 +3,18 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
+// http://erp.saarang.org/media/events/IMG-20151216-WA0005_3.jpg
 // 'starter.controllers' is found in controllers.js
-angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanitize'/*,'saarang2016App.directives'*/])
+angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanitize','ionic.ion.imageCacheFactory'])
+
+.run(function($ImageCacheFactory){
+    var events = angular.fromJson(window.localStorage['events']);
+
+      $ImageCacheFactory.Cache(events.map(function(a) {return a.photoUrl;}));
+  $ImageCacheFactory.Cache().then(function(){
+    console.log("done preloading!");
+  });
+})
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
