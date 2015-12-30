@@ -1,0 +1,22 @@
+<ion-view view-title="Proshows">
+  <ion-content>
+    <div class="column">
+    	<div class="list card">
+    		 <div>
+              <div class="list card" ng-repeat="event in proshows" id="card" ng-click=openEvent(event)>
+                <div class="item item-image" id= "imgcontainer">
+                <a href="#/app/eventdetails" >
+                  <img src="{{event.photoUrl}}" id="myimage" onerror="this.src='img/logo.jpg'">
+                  <div id="layer">
+                  <p id="eventname">{{event.title}}</p>
+                  <p id="eventdate">{{event.startTimestamp | date:'EEE, MMM dd' : UTC}}</p>
+                  <p id="eventtime">{{event.startTimestamp | date:'hh:mm a' : UTC}}</p>
+                   </div>
+                  </a>
+                </div>
+              </div>
+          </div>
+    	</div>
+    </div>
+  </ion-content>
+</ion-view>

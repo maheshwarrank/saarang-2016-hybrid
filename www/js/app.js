@@ -54,14 +54,15 @@ angular.module('saarang2016App', ['ionic', 'saarang2016App.controllers','ngSanit
     }
   })
 
-  // .state('app.browse', {
-  //     url: '/browse',
-  //     views: {
-  //       'menuContent': {
-  //         templateUrl: 'templates/browse.html'
-  //       }
-  //     }
-  //   })
+  .state('app.proshows', {
+      url: '/proshows',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/proshows.html',
+          controller: 'EventsCtrl'
+        }
+      }
+    })
     .state('app.sponsors', {
       url: '/sponsors',
       views: {
