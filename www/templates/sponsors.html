@@ -3,7 +3,7 @@
    <div class="list card" ng-repeat = "sponsor in sponsors">
   <div class="item item-image">
   <a href='{{sponsor.sponsor_link}}'>
-      <img src="{{sponsor.logo}}" id="sponsimage">
+      <img src="{{sponsor.logo}}" id="sponsimage" onerror="this.src='img/sponsors.jpg'">
   </a>
   </div>
   <div id="sponstype">{{sponsor.title}}</div>
