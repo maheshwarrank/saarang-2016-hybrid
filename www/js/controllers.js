@@ -178,7 +178,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Aditya U",
                 "email": "adi@saarang.org",
                 "phone": "+919962971662",
-                "img"  :"img/adi.png"
+                "img"  :"http://saarang.org/2016/deploy/img/core_pics/adi.png"
               }
             ]
             },
@@ -189,7 +189,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Krishna Koushik",
                 "email": "krishnakoushik@saarang.org",
                 "phone": "+917418789160",
-                "img"  :"img/krishnakoushik.png"
+                "img"  :"http://saarang.org/2016/deploy/img/core_pics/krishnakoushik.png"
               }
             ]
             },
@@ -200,19 +200,19 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Anish Rathi",
                 "email": "anish.rathi@saarang.org",
                 "phone": "+919884685016",
-                "img"  :"img/anish.png"
+                "img"  :"http://saarang.org/2016/deploy/img/core_pics/anish.png"
               },
               {
                 "name": "Anirvan Bordoloi",
                 "email": "anirvan.bordoloi@saarang.org",
                 "phone": "+919962609617",
-                "img"  :"img/anirvan.png"
+                "img"  :"http://saarang.org/2016/deploy/img/core_pics/anirvan.png"
               },
               {
                 "name": "Ashish Jha",
                 "email": "ashish.jha@saarang.org",
                 "phone": "+918695851252",
-                "img"  :"img/aashish.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/aashish.png"
               }
             ]
             },
@@ -223,13 +223,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Rushabh Menon",
                 "email": "menon@saarang.org",
                 "phone": "+919791057815",
-                "img"  :"img/rushabh.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/rushabh.png"
               },
               {
                 "name": "Srijith R",
                 "email": "srijith@saarang.org",
                 "phone": "+919176467000",
-                "img"  :"img/srijith.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/srijith.png"
               }
             ]
             },
@@ -240,13 +240,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Ashwin S Pothen",
                 "email": "ashwin@saarang.org",
                 "phone": "+919884300360",
-                "img"  :"img/pothen.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/pothen.png"
               },
               {
                 "name": "Harshith Guntha",
                 "email": "harshith.guntha@saarang.org",
                 "phone": "+918056218712",
-                "img"  :"img/harshith.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/harshith.png"
               }
             ]
             },
@@ -257,13 +257,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Sai Krishna Koushik",
                 "email": "koushik.esk@saarang.org",
                 "phone": "+918124343670",
-                "img"  :"img/saikrishnakoushik.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/saikrishnakoushik.png"
               },
               {
                 "name": "Sai Akhil Matha",
                 "email": "akhil@saarang.org",
                 "phone": "+918056128354",
-                "img"  :"img/akhil.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/akhil.png"
               }
             ]
             },
@@ -274,7 +274,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Rinkesh Virani",
                 "email": "rinkeshvirani@saarang.org",
                 "phone": "+919884299313",
-                "img"  :"img/rinkesh.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/rinkesh.png"
               }
             ]
             },
@@ -285,7 +285,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Sreeharsha Gunda",
                 "email": "sreeharsha@saarang.org",
                 "phone": "+919962663576",
-                "img"  :"img/sreeharsha.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/sreeharsha.png"
               }
             ]
             },
@@ -296,13 +296,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name": "Deepak Padamata",
                 "email": "deepak@saarang.org",
                 "phone": "+919789107938",
-                "img"  :"img/deepak.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/deepak.png"
               },
               {
                 "name": "Aqel Ahammed",
                 "email": "aqel@saarang.org",
                 "phone": "+919633229144",
-                "img"  :"img/aqel.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/aqel.png"
               }
             ]
             },
@@ -313,19 +313,19 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name":"Manavala Thambi",
                 "email":"ktmanav@saarang.org",
                 "phone" :"+919962605305",
-                "img"  :"img/thambi.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/thambi.png"
               },
               {
                 "name":"Rathees P",
                 "email":"ratiz@saarang.org",
                 "phone":"+919789575877",
-                "img"  :"img/rathees.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/rathees.png"
               },
               {
                 "name": "Rahul K",
                 "email": "rahul@saarang.org",
                 "phone": "+919884299695",
-                "img"  :"img/rahul.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/rahul.png"
               }
               ]
             },
@@ -336,13 +336,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                "name":"Favas M P",
                "email":"favas@saarang.org", 
                "phone":"+917418304010",
-               "img"  :"img/favas.png"
+               "img"  : "http://saarang.org/2016/deploy/img/core_pics/favas.png"
                },
                {
                 "name":"Srinivas Ramanand",
                 "email":"ramanand@saarang.org", 
                 "phone":"+918807488931",
-                "img"  :"img/ramanand.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/ramanand.png"
                }
              ]  
             },
@@ -353,13 +353,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name":"Hari M",
                 "email":"hari@saarang.org", 
                 "phone":"+917708948827",
-                "img"  :"img/hari.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/hari.png"
               },
               {
                 "name":"Amar",
                 "email":"amar@saarang.org", 
                 "phone":"+919952912020",
-                "img"  :"img/amar.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/amar.png"
               }
               ]
             },
@@ -370,13 +370,13 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name":"Bharadwaj M",
                 "email":"bharadwaj@saarang.org",
                 "phone": "+918056102507",
-                "img"  :"img/bharadwaj.png"  
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/bharadwaj.png"  
               },
               {
                 "name":"Ruth Babu Marpu",
                 "email":"ruth.marpu@saarang.org",
                 "phone": "+919043812280",
-                "img"  :"img/ruthbabu.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/ruthbabu.png"
               }
               ]
             },
@@ -387,7 +387,7 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
                 "name":"Vidyadhar Mudium",
                 "email":"vidyadhar@saarang.org",
                 "phone":"+919952044531",
-                "img"  :"img/vidyadhar.png"
+                "img"  : "http://saarang.org/2016/deploy/img/core_pics/vidyadhar.png"
               }
               ]
             }];
