@@ -119,8 +119,8 @@ angular.module('saarang2016App.controllers', ['ionic.ion.imageCacheFactory'])
     if (events == null ){
       loadFromJSON();
     } else {
-      $scope.events1 = events.slice(0,49);
-      $scope.events2 = events.slice(49,99);
+      $scope.events1 = events.slice(0,50);
+      $scope.events2 = events.slice(50,99);
       $scope.proshows = events.slice(0,5);
     }
   }
